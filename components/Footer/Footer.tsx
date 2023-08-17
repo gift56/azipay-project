@@ -9,7 +9,7 @@ const Footer = () => {
   return (
     <footer className="w-full">
       <div className="container">
-        <div className="w-full py-16 flex justify-between items-start">
+        <div className="w-full py-16 flex flex-col tab:flex-row justify-between items-start gap-7 tab:gap-0">
           <div className="w-full tab:flex-[1] flex flex-col items-start gap-4">
             <Link href="/">
               <img
@@ -34,7 +34,8 @@ const Footer = () => {
               ))}
             </div>
           </div>
-          <div className="grid grid-cols-2 tab:grid-cols-3 xl:grid-cols-4 w-full tab:flex-[2]">
+
+          <div className="grid grid-cols-2 tab:grid-cols-3 xl:grid-cols-4 w-full tab:flex-[2] gap-6">
             {footerLinks.map((item, index: any) => (
               <div
                 className="w-full flex flex-col items-start gap-4"
