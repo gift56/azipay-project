@@ -27,7 +27,9 @@ const Navbar = () => {
     <header className="w-full sticky bg-white top-8">
       <div className="container">
         <div className="w-full flex items-center justify-between gap-5 py-10">
-          <div ></div>
+          <div className="">
+            <img src="/imgs/logo.svg" alt="Easypay-logo" />
+          </div>
         </div>
       </div>
     </header>
