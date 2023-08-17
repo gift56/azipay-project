@@ -3,6 +3,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { MdClose } from "react-icons/md";
+import { Button } from "..";
 
 const Navbar = () => {
   const [mobileNav, setMobileNav] = useState(false);
@@ -43,7 +44,11 @@ const Navbar = () => {
               </Link>
             ))}
           </nav>
-          <div className="flex items-center gap-7"></div>
+          <div className="flex items-center gap-7">
+            <Link href="/">
+              <Button text="" />
+            </Link>
+          </div>
         </div>
       </div>
     </header>
