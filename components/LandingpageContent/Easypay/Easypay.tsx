@@ -22,7 +22,11 @@ const Easypay = () => {
               />
             </div>
             <div className="w-full tab:flex-1 flex flex-col relative gap-12 items-center">
-              <img src="/imgs/step1.svg" alt="/" className="absolute -left-10 top-5 w-[180px] aspect-square" />
+              <img
+                src="/imgs/step1.svg"
+                alt="/"
+                className="absolute -left-20 xl:-left-10 top-5 w-[170px] xl:w-[180px] aspect-square hidden lg:flex"
+              />
               <div className="flex flex-col items-start justify-start gap-4">
                 <span className="md:w-14 md:h-14 w-12 h-12 flex items-center justify-center bg-primary text-white rounded-2xl text-xl font-bold md:text-2xl shadow-cardShad">
                   1
@@ -49,7 +53,11 @@ const Easypay = () => {
                   </p>
                 </div>
               </div>
-
+              <img
+                src="/imgs/step2.svg"
+                alt="/"
+                className="absolute xl:right-10 -right-3 top-[157px] w-[280px] xl:w-[290px] aspect-square hidden lg:flex"
+              />
               <div className="flex flex-col items-start justify-start gap-4">
                 <span className="md:w-14 md:h-14 w-12 h-12 flex items-center justify-center bg-[#F2F1F1] text-gray1 rounded-2xl text-xl font-bold md:text-2xl">
                   3
