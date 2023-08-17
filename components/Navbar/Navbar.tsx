@@ -1,3 +1,4 @@
+import { navLinks } from "@/utils/constant";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { FaBars } from "react-icons/fa";
@@ -32,7 +33,11 @@ const Navbar = () => {
             <img src="/imgs/logo.svg" alt="Easypay-logo" />
           </Link>
           <nav className="flex items-center justify-center gap-6">
-            
+            {navLinks.map((item, index: any) => (
+              <Link href={item.href} key={index}>
+                {item.text}
+              </Link>
+            ))}
           </nav>
         </div>
       </div>
