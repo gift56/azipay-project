@@ -12,6 +12,9 @@ const config: Config = {
       colors: {
         primmary: "#11453B",
       },
+      fontFamily: {
+        samp: "'Satoshi', sans-serif",
+      },
       screens: {
         tab: "920px",
       },
