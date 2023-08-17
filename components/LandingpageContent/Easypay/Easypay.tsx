@@ -15,7 +15,14 @@ const Easypay = () => {
           </div>
           <div className="w-full flex flex-col items-center justify-center tab:flex-row tab:justify-between gap-6">
             <div className="w-full tab:flex-1">
-              <img src="/imgs/howImg.png" alt="how-images" className="w-[447px]" />
+              <img
+                src="/imgs/howImg.png"
+                alt="how-images"
+                className="w-[447px]"
+              />
+            </div>
+            <div className="w-full tab:flex-1">
+              
             </div>
           </div>
         </div>
