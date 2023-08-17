@@ -23,7 +23,15 @@ const Navbar = () => {
     };
   }, []);
 
-  return <header className="w-full">Navbar</header>;
+  return (
+    <header className="w-full sticky bg-white top-8">
+      <div className="container">
+        <div className="w-full flex items-center justify-between gap-5">
+          
+        </div>
+      </div>
+    </header>
+  );
 };
 
 export default Navbar;
