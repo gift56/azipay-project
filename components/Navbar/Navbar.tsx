@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { MdClose } from "react-icons/md";
@@ -24,12 +25,15 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className="w-full sticky bg-white top-8">
+    <header className="w-full sticky bg-white top-0">
       <div className="container">
-        <div className="w-full flex items-center justify-between gap-5 py-10">
-          <div className="">
+        <div className="w-full flex items-center justify-between gap-5 py-4">
+          <Link href="/">
             <img src="/imgs/logo.svg" alt="Easypay-logo" />
-          </div>
+          </Link>
+          <nav className="flex items-center justify-center gap-6">
+            
+          </nav>
         </div>
       </div>
     </header>
