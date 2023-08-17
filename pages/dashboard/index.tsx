@@ -126,6 +126,23 @@ const DashboardPage = () => {
                   Total Employee
                 </h4>
                 <span className="text-3xl font-bold text-dark">64</span>
+                <div className="w-full flex items-start justify-start">
+                  <div className="flex flex-col gap-2 w-full items-start justify-start">
+                    <div className="w-full h-2 bg-primary"></div>
+                    <span className="text-sm font-bold text-[#8D8E8D]">
+                      Male <br />
+                      32
+                    </span>
+                  </div>
+                  <div className="flex flex-col gap-2 w-full items-start justify-start">
+                    <div className="w-full h-2 bg-danger"></div>
+                    <span className="text-sm font-bold text-[#8D8E8D]">
+                      Female
+                      <br />
+                      32
+                    </span>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
