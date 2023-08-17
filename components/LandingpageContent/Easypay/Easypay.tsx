@@ -21,7 +21,7 @@ const Easypay = () => {
                 className="w-[447px]"
               />
             </div>
-            <div className="w-full tab:flex-1 flex flex-col relative">
+            <div className="w-full tab:flex-1 flex flex-col relative gap-12 items-center">
               <div className="flex flex-col items-start justify-start gap-4">
                 <span className="md:w-14 md:h-14 w-12 h-12 flex items-center justify-center bg-primary text-white rounded-2xl text-xl font-bold md:text-2xl shadow-cardShad">
                   1
@@ -32,6 +32,34 @@ const Easypay = () => {
                   </h2>
                   <p className="text-sm font-normal md:text-base text-gray1">
                     Click here to set up your Eazipay account.
+                  </p>
+                </div>
+              </div>
+              <div className="flex flex-col items-start justify-start gap-4">
+                <span className="md:w-14 md:h-14 w-12 h-12 flex items-center justify-center bg-[#F2F1F1] text-gray1 rounded-2xl text-xl font-bold md:text-2xl">
+                  2
+                </span>
+                <div>
+                  <h2 className="text-base font-bold text-gray1 md:text-lg tab:text-xl">
+                    Add Employee Data
+                  </h2>
+                  <p className="text-sm font-normal md:text-base text-gray1">
+                    Your employee information is 100% safe and <br /> secure.
+                  </p>
+                </div>
+              </div>
+
+              <div className="flex flex-col items-start justify-start gap-4">
+                <span className="md:w-14 md:h-14 w-12 h-12 flex items-center justify-center bg-[#F2F1F1] text-gray1 rounded-2xl text-xl font-bold md:text-2xl">
+                  3
+                </span>
+                <div>
+                  <h2 className="text-base font-bold text-gray1 md:text-lg tab:text-xl">
+                    Prepare your Transaction
+                  </h2>
+                  <p className="text-sm font-normal md:text-base text-gray1">
+                    Run payroll: Bulk Salaries and Compliance are <br /> done at
+                    once!
                   </p>
                 </div>
               </div>
