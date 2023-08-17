@@ -165,14 +165,13 @@ const DashboardPage = () => {
                 className="h-full bg-[#D9EBCD] px-10"
               />
             </div>
-            <div
-              className="flex items-center justify-center w-fit gap-5 bg-white text-sm font-medium border border-[#D9EBCD] h-12 px-4 rounded-2xl text-[#8D8E8D]"
-            >
+            <div className="flex items-center justify-center w-fit gap-5 bg-white text-sm font-medium border border-[#D9EBCD] h-12 px-4 rounded-2xl text-[#8D8E8D]">
               <img src="/icons/filterIcon.svg" alt="/" />
               <span>Filter</span>
             </div>
           </div>
         </div>
+        <div className="w-full hidden tab:flex items-start justify-start gap-6 bg-[#f2f1f15e] rounded-2xl p-6 pt-7"></div>
       </div>
     </DashboardLayout>
   );

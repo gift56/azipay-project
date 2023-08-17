@@ -189,3 +189,23 @@ export const cardData = [
     text: "Quick Loan",
   },
 ];
+
+export const recentData = [
+  {
+    date: "Wednesday, November 09, 2022",
+    actualyData: [
+      {
+        data: {
+          name: "PAYROLL",
+          img: "/imgs/userName.png",
+          activity: "ACTIVITY",
+          activityEvent: "Paid November 2022 salary",
+          employee: "EMPLOYEE",
+          employeeNum: "52",
+          time: "TIME",
+          timeDate: "16:15",
+        },
+      },
+    ],
+  },
+];
