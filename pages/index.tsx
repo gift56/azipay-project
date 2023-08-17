@@ -1,4 +1,10 @@
-import { Easypay, FreeForever, HeroSection, Individual } from "@/components";
+import {
+  Easypay,
+  FreeForever,
+  GetExclusive,
+  HeroSection,
+  Individual,
+} from "@/components";
 import MainLayout from "@/layouts/MainLayout";
 
 const Homepage = () => {
@@ -8,6 +14,7 @@ const Homepage = () => {
       <Individual />
       <Easypay />
       <FreeForever />
+      <GetExclusive />
     </MainLayout>
   );
 };
