@@ -78,6 +78,7 @@ export const data: any = {
 const DashboardChart = () => {
   return (
     <div className="bg-white w-full border border-[#E7E8E7] rounded-2xl p-8">
+      <h2 className="text-2xl font-bold text-[#219653]">N1,567,552</h2>
       <Line data={data} options={options} />
     </div>
   );
