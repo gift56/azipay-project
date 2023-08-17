@@ -29,7 +29,11 @@ const DashboardSidebar = () => {
           <Link
             href={item.href}
             key={index}
-            className={`${activePath(item.href) ? "border-l-2 border-primary bg-[#f0f7eb80]" : ""}`}
+            className={`${
+              activePath(item.href)
+                ? "border-l-2 border-primary bg-[#f0f7eb80]"
+                : "border-[#E7E8E7]"
+            } border-b w-full flex items-center justify-between gap-5`}
           ></Link>
         ))}
       </div>
