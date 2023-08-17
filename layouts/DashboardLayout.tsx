@@ -23,7 +23,7 @@ const DashboardLayout = ({ children }: LayoutProps) => {
         />
       </Head>
 
-      <main className="w-full flex items-start justify-start h-screen overflow-auto lg:overflow-hidden">
+      <main className="w-full flex items-start justify-start h-screen overflow-auto lg:overflow-hidden bg-[#F9FAFC]">
         <div className="w-full fixed bottom-0 bg-white lg:relative lg:flex-[0.4]">
           <DashboardSidebar />
           <MobileDashNav />
