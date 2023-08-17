@@ -9,3 +9,8 @@ body {
 .container {
   @apply w-[90%] mx-auto tab:w-[75%];
 }
+
+img {
+  -webkit-user-drag: none;
+  user-select: none;
+}
