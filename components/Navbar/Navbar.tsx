@@ -38,7 +38,7 @@ const Navbar = () => {
               <Link
                 href={item.href}
                 key={index}
-                className="text-base font-medium text-gray1 hover:text-primmary transition-all"
+                className="text-base font-medium text-gray1 hover:text-primary transition-all"
               >
                 {item.text}
               </Link>
@@ -46,10 +46,10 @@ const Navbar = () => {
           </nav>
           <div className="flex items-center gap-7">
             <Link href="/">
-              <Button text="Log in" className="text-primary border-primmary w-fit px-16 py-4 rounded-3xl" />
+              <Button text="Log in" className="text-primary border-primary w-fit px-16 py-4 rounded-3xl" />
             </Link>
             <Link href="/">
-              <Button text="Register" className="text-white border-primmary w-fit px-16 py-4 rounded-3xl" />
+              <Button text="Register" className="text-white border-primary bg-primary w-fit px-16 py-4 rounded-3xl" />
             </Link>
           </div>
         </div>
