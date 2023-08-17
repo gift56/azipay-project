@@ -11,8 +11,21 @@ const DashboardPage = () => {
         />
         <div className="flex items-center justify-end gap-10">
           <div className="relative">
-            <img src="/icons/bell.svg" alt="bell_icons" className="w-6 aspect-square" />
-            <span className="w-4 h-4 bg-danger rounded-full flex items-center justify-center text-xs font-bold text-white absolute -top-1 -right-1">7</span>
+            <img
+              src="/icons/bell.svg"
+              alt="bell_icons"
+              className="w-6 aspect-square"
+            />
+            <span className="w-4 h-4 bg-danger rounded-full flex items-center justify-center text-xs font-bold text-white absolute -top-1 -right-1">
+              7
+            </span>
+          </div>
+          <div className="flex items-center gap-6">
+            <img
+              src="/imgs/userAvatar.png"
+              alt="/"
+              className="w-[56px] aspect-square object-cover"
+            />
           </div>
         </div>
       </header>
