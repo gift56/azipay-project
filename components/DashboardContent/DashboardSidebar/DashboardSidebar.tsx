@@ -31,10 +31,15 @@ const DashboardSidebar = () => {
             key={index}
             className={`${
               activePath(item.href)
-                ? "border-l-2 border-primary bg-[#f0f7eb80]"
-                : "border-[#E7E8E7]"
-            } border-b w-full flex items-center justify-between gap-5`}
-          ></Link>
+                ? "border-l-2 border-l-primary bg-[#f0f7eb80] text-primary"
+                : "text-dark"
+            } border-b w-full flex items-center justify-between gap-5 px-3 py-3`}
+          >
+            <div className="flex items-center justify-start gap-3">
+              <img src={item.img} alt="/" className="w-5 aspect-square" />
+              <span className="text-base font-medium">{item.text}</span>
+            </div>
+          </Link>
         ))}
       </div>
     </nav>
