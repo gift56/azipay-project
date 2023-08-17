@@ -18,10 +18,10 @@ const HeroSection = () => {
                 businesses to manage staff, pay salaries, bills, and relevant
                 taxes all at once.`}
             </p>
-            <Link href="/">
+            <Link href="/dashboard">
               <Button
                 text="Start Using Free, Forever"
-                className="w-fit rounded-3xl px-16 py-3 bg-primary text-white"
+                className="w-fit rounded-3xl !px-16 py-3 bg-primary text-white"
               />
             </Link>
             <div className="w-full flex flex-col items-start justify-start gap-6 mt-5">

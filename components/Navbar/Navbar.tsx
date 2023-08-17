@@ -46,13 +46,13 @@ const Navbar = () => {
             ))}
           </nav>
           <div className="hidden tab:flex items-center gap-7">
-            <Link href="/">
+            <Link href="/dashboard">
               <Button
                 text="Log in"
                 className="text-primary border-primary tab:w-[148px] lg:w-[168px] rounded-3xl"
               />
             </Link>
-            <Link href="/">
+            <Link href="/dashboard">
               <Button
                 text="Register"
                 className="text-white border-primary bg-primary tab:w-[148px] lg:w-[168px] rounded-3xl"
