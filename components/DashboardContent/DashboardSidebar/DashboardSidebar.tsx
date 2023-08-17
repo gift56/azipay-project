@@ -1,7 +1,7 @@
 import React from "react";
 
 const DashboardSidebar = () => {
-  return <div>DashboardSidebar</div>;
+  return <nav className="hidden lg:flex">DashboardSidebar</nav>;
 };
 
 export default DashboardSidebar;

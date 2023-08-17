@@ -1,6 +1,6 @@
 import { ReactNode } from "react";
 import Head from "next/head";
-import { DashboardSidebar } from "@/components";
+import { DashboardSidebar, MobileDashNav } from "@/components";
 
 interface LayoutProps {
   children: ReactNode;
@@ -24,8 +24,9 @@ const DashboardLayout = ({ children }: LayoutProps) => {
       </Head>
 
       <main className="w-full flex items-start justify-start h-screen overflow-auto lg:overflow-hidden">
-        <div className="w-full lg:flex-[0.8]">
+        <div className="w-full fixed bottom-0 bg-white lg:relative lg:flex-[0.5]">
           <DashboardSidebar />
+          <MobileDashNav />
         </div>
         <div className="lg:flex-[2] w-full">{children}</div>
       </main>

@@ -1,7 +1,7 @@
 import React from "react";
 
 const MobileDashNav = () => {
-  return <div>MobileDashNav</div>;
+  return <nav className="lg:hidden">MobileDashNav</nav>;
 };
 
 export default MobileDashNav;
