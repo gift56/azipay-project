@@ -152,6 +152,22 @@ const DashboardPage = () => {
 
         <div className="w-full flex flex-col tab:hidden items-start justify-start gap-5">
           <h3 className="text-base font-medium text-gray1">Quick Stats</h3>
+          <div className="flex w-full flex-col items-start justify-start gap-5">
+            <div className="p-4 flex flex-col items-start justify-start gap-2 bg-[#F2F1F1] rounded-2xl w-full">
+              <h4 className="text-base font-normal text-gray1">
+                Total Payroll
+              </h4>
+              <h2 className="text-base font-bold text-gray1">
+                2,293,044,345.05
+              </h2>
+            </div>
+            <div className="p-4 flex flex-col items-start justify-start gap-2 bg-[#F2F1F1] rounded-2xl w-full">
+              <h4 className="text-base font-normal text-gray1">
+                Total Employee
+              </h4>
+              <h2 className="text-base font-bold text-gray1">10,000</h2>
+            </div>
+          </div>
         </div>
 
         <DashboardChart />

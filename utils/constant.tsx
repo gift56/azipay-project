@@ -190,3 +190,41 @@ export const cardData = [
   },
 ];
 
+export const quickAction = [
+  {
+    img: "/icons/dash2.svg",
+    text: "Pay Salaries",
+  },
+  {
+    img: "/icons/dash1.svg",
+    text: "Add Employee",
+  },
+  {
+    img: "/icons/dash5.svg",
+    text: "Send Payslips",
+  },
+  {
+    img: "/icons/dash6.svg",
+    text: "Edit Salaries",
+  },
+  {
+    img: "/icons/dash4.svg",
+    text: "Get a Loan",
+  },
+  {
+    img: "/icons/dash7.svg",
+    text: "Make a Transfer",
+  },
+  {
+    img: "/icons/dash8.svg",
+    text: "Airtime",
+  },
+  {
+    img: "/icons/dash9.svg",
+    text: "Data",
+  },
+  {
+    img: "/icons/dash10.svg",
+    text: "Electricity",
+  },
+];
