@@ -1,6 +1,7 @@
 import { dashboardSideLink } from "@/utils/constant";
 import Link from "next/link";
 import { useRouter } from "next/router";
+import { BiChevronDown } from "react-icons/bi";
 
 const DashboardSidebar = () => {
   const router = useRouter();
@@ -39,6 +40,9 @@ const DashboardSidebar = () => {
               <img src={item.img} alt="/" className="w-5 aspect-square" />
               <span className="text-base font-medium">{item.text}</span>
             </div>
+            <span>
+              <BiChevronDown />
+            </span>
           </Link>
         ))}
       </div>
