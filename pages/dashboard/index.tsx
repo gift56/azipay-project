@@ -289,13 +289,11 @@ const DashboardPage = () => {
               </div>
               <div className="bg-white w-full flex items-end justify-between px-8 py-3 rounded-2xl gap-5">
                 <div className="flex flex-col items-start justify-start gap-2">
-                  <h5 className="text-sm font-normal text-[#8D8E8D]">
-                    EMPLOYEE MANAGEMENT
-                  </h5>
+                  <h5 className="text-sm font-normal text-[#8D8E8D]">WALLET</h5>
                   <div className="flex items-center justify-start gap-3">
-                    <img src="/imgs/useravatar2.png" alt="user_name" />
+                    <img src="/imgs/userName.png" alt="user_name" />
                     <span className="text-gray1 text-base font-medium">
-                      Kalu Abasiama
+                      Badmus Kemis
                     </span>
                   </div>
                 </div>
@@ -305,16 +303,24 @@ const DashboardPage = () => {
                   </h5>
                   <div className="flex items-center justify-start gap-3">
                     <span className="text-gray1 text-base font-medium">
-                      Added new employee
+                      Paid November 2022, salary
                     </span>
                   </div>
                 </div>
                 <div className="flex flex-col items-start justify-start gap-2">
-                  <h5 className="text-sm font-normal text-[#8D8E8D]">
-                    EMPLOYEE
-                  </h5>
+                  <h5 className="text-sm font-normal text-[#8D8E8D]">AMOUNT</h5>
                   <div className="flex items-center justify-start gap-3">
-                    <span className="text-gray1 text-base font-medium">04</span>
+                    <span className="text-danger text-base font-medium">
+                      N11,1678,900.00
+                    </span>
+                  </div>
+                </div>
+                <div className="flex flex-col items-start justify-start gap-2">
+                  <h5 className="text-sm font-normal text-[#8D8E8D]">TIME</h5>
+                  <div className="flex items-center justify-start gap-3">
+                    <span className="text-gray1 text-base font-medium">
+                      15:31
+                    </span>
                   </div>
                 </div>
               </div>
