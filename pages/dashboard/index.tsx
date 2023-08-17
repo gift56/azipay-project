@@ -1,3 +1,4 @@
+import { Button } from "@/components";
 import DashboardLayout from "@/layouts/DashboardLayout";
 import { useState } from "react";
 import { BiChevronRight } from "react-icons/bi";
@@ -74,7 +75,10 @@ const DashboardPage = () => {
                   />
                 </div>
               </div>
-
+              <Button
+                text="Fund Wallet"
+                className="text-primary text-sm font-medium bg-[#D9EBCD] rounded-2xl"
+              />
             </div>
           </div>
           <div className="w-full lg:flex-[0.5]"></div>
