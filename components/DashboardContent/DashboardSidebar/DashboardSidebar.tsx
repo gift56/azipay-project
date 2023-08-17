@@ -40,8 +40,8 @@ const DashboardSidebar = () => {
               <img src={item.img} alt="/" className="w-5 aspect-square" />
               <span className="text-base font-medium">{item.text}</span>
             </div>
-            <span>
-              <BiChevronDown />
+            <span className={`${item.drop === true ? "flex" : "hidden"}`}>
+              <BiChevronDown size={25} />
             </span>
           </Link>
         ))}
