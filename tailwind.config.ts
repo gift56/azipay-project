@@ -15,6 +15,8 @@ const config: Config = {
       fontFamily: {
         samp: "'Satoshi', sans-serif",
         army: "#B4A572",
+        danger: "#EA4E4B",
+        dark: "#292A29",
       },
       screens: {
         tab: "920px",
