@@ -4,13 +4,13 @@ import { BiChevronRight } from "react-icons/bi";
 const DashboardPage = () => {
   return (
     <DashboardLayout>
-      <header className="w-full bg-white px-10 py-3 flex items-center justify-between gap-4">
+      <header className="w-full bg-white px-5 tab:px-10 py-3 flex items-center justify-between gap-4 sticky top-0 z-10">
         <img
           src="/imgs/companyLogo.svg"
           alt="/"
           className="hidden tab:flex w-[110px] h-[58px] object-contain"
         />
-        <div className="flex items-center justify-end gap-10">
+        <div className="flex flex-row-reverse tab:flex-row items-center justify-end gap-10">
           <div className="relative">
             <img
               src="/icons/bell.svg"
@@ -31,7 +31,7 @@ const DashboardPage = () => {
               <h2 className="text-base font-bold text-[#2B2B2B]">
                 Kalu Abasiama
               </h2>
-              <div className="flex items-center justify-between w-full text-[#898989] cursor-pointer">
+              <div className="hidden tab:flex items-center justify-between w-full text-[#898989] cursor-pointer">
                 <p className="text-sm font-medium">Admin</p>
                 <span>
                   <BiChevronRight size={20} />
@@ -41,6 +41,9 @@ const DashboardPage = () => {
           </div>
         </div>
       </header>
+      <div className="w-full px-10 flex flex-col items-start justify-start gap-7">
+
+      </div>
     </DashboardLayout>
   );
 };
