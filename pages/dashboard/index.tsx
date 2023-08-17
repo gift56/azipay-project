@@ -171,7 +171,8 @@ const DashboardPage = () => {
             </div>
           </div>
         </div>
-        <div className="w-full hidden tab:flex items-start justify-start gap-6 bg-[#f2f1f15e] rounded-2xl p-6 pt-7">
+
+        <div className="w-full hidden tab:flex items-start flex-col justify-start gap-6 bg-[#f2f1f15e] rounded-2xl p-6 pt-7">
           <div className="flex items-start justify-start flex-col gap-5 w-full">
             <h3 className="text-gray1 font-medium text-lg">
               Wednesday, November 09, 2022
@@ -213,6 +214,37 @@ const DashboardPage = () => {
                     <span className="text-gray1 text-base font-medium">
                       16:15
                     </span>
+                  </div>
+                </div>
+              </div>
+              <div className="bg-white w-full flex items-end justify-between px-8 py-3 rounded-2xl gap-5">
+                <div className="flex flex-col items-start justify-start gap-2">
+                  <h5 className="text-sm font-normal text-[#8D8E8D]">
+                    PAYROLL
+                  </h5>
+                  <div className="flex items-center justify-start gap-3">
+                    <img src="/imgs/useravatar2.png" alt="user_name" />
+                    <span className="text-gray1 text-base font-medium">
+                      Kalu Abasiama
+                    </span>
+                  </div>
+                </div>
+                <div className="flex flex-col items-start justify-start gap-2">
+                  <h5 className="text-sm font-normal text-[#8D8E8D]">
+                    ACTIVITY
+                  </h5>
+                  <div className="flex items-center justify-start gap-3">
+                    <span className="text-gray1 text-base font-medium">
+                      Added new employee
+                    </span>
+                  </div>
+                </div>
+                <div className="flex flex-col items-start justify-start gap-2">
+                  <h5 className="text-sm font-normal text-[#8D8E8D]">
+                    EMPLOYEE
+                  </h5>
+                  <div className="flex items-center justify-start gap-3">
+                    <span className="text-gray1 text-base font-medium">04</span>
                   </div>
                 </div>
               </div>
