@@ -1,10 +1,9 @@
 import DashboardLayout from "@/layouts/DashboardLayout";
 import { useState } from "react";
 import { BiChevronRight } from "react-icons/bi";
-import { AiOutlineEyeInvisible } from "react-icons/ai";
 
 const DashboardPage = () => {
-  const [displayBaLance, setDisplayBaLance] = useState("N12,560,078.00");
+  const [displayBaLance, setDisplayBaLance] = useState(false);
 
   return (
     <DashboardLayout>
@@ -63,17 +62,14 @@ const DashboardPage = () => {
                   Wallet Balance
                 </h4>
                 <div className="flex items-center justify-start gap-1">
-                  <h5>{displayBaLance}</h5>
-                  {displayBaLance ? (
-                    <img
-                      src="/icons/eyeIcon.svg"
-                      alt=""
-                      className="cursor-pointer"
-                      onClick={() => setDisplayBaLance("XXXXXXXXXXXX")}
-                    />
-                  ) : (
-                    <AiOutlineEyeInvisible size={20} />
-                  )}
+                  <h5>{!displayBaLance ? "N12,560,078.00" : "XXXXXXXXXX"}</h5>
+
+                  <img
+                    src="/icons/eyeIcon.svg"
+                    alt=""
+                    className="cursor-pointer"
+                    onClick={() => setDisplayBaLance((prev) => !prev)}
+                  />
                 </div>
               </div>
             </div>
