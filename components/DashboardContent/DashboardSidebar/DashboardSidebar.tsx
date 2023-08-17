@@ -12,7 +12,7 @@ const DashboardSidebar = () => {
 
   return (
     <nav className="hidden lg:flex flex-col gap-10 items-start justify-start w-full bg-white h-screen overflow-y-auto">
-      <div className="w-full flex flex-col items-start justify-start sticky top-[-15px] z-[1] h-[7vh] bg-white">
+      <div className="w-full flex flex-col items-start justify-start sticky z-[1] top-[-15px] h-[4vh] bg-primary">
         <div>
           <img
             src="/imgs/dashboardLogo.png"
@@ -20,6 +20,9 @@ const DashboardSidebar = () => {
             className="w-full h-full object-cover"
           />
         </div>
+      </div>
+      <div className="w-full flex flex-col items-start justify-start h-[90vh]">
+
       </div>
     </nav>
   );
