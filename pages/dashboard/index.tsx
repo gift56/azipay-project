@@ -41,7 +41,8 @@ const DashboardPage = () => {
           </div>
         </div>
       </header>
-      <div className="w-full px-10 flex flex-col items-start justify-start gap-7">
+
+      <div className="w-full px-5 tab:px-10  flex flex-col items-start justify-start gap-7">
 
       </div>
     </DashboardLayout>
