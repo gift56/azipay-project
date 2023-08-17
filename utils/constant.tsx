@@ -140,4 +140,14 @@ export const dashboardSideLink = [
     text: "Compliance",
     drop: true,
   },
+  {
+    img: "/icons/icon6/svg",
+    text: "Quick Loan",
+    drop: true,
+  },
+  {
+    img: "/icons/icon7/svg",
+    text: "Book Keeping",
+    drop: true,
+  },
 ];
