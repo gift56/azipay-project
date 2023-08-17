@@ -3,9 +3,9 @@ import Link from "next/link";
 
 const HeroSection = () => {
   return (
-    <section className="w-full bg-heroImg bg-no-repeat bg-right bg-[length:670px_500px]">
+    <section className="w-full bg-heroImg bg-no-repeat bg-right bg-[length:700px_500px]">
       <div className="container">
-        <div className="w-full flex items-center justify-center py-10 tab:h-[90vh] flex-col tab:flex-row gap-8">
+        <div className="w-full flex items-center justify-center py-10 tab:h-[95vh] flex-col tab:flex-row gap-8">
           <div className="w-full tab:flex-1 flex flex-col items-start justify-start gap-8">
             <h2 className="text-3xl font-bold text-dark md:text-4xl tab:text-6xl font-play">
               Run your <span className="text-primary">payroll</span>{" "}
@@ -18,8 +18,9 @@ const HeroSection = () => {
                 taxes all at once.`}
             </p>
             <Link href="/">
-              <Button text="Start Using Free, Forever" className="" />
+              <Button text="Start Using Free, Forever" className="w-fit rounded-3xl px-16 py-3 bg-primary text-white" />
             </Link>
+            <div className="w-full flex flex-col items-start justify-start gap-6"></div>
           </div>
           <div className="w-full tab:flex-1">
             <img
