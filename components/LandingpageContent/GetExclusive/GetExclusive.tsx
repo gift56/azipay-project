@@ -2,7 +2,7 @@ import { useState } from "react";
 
 const GetExclusive = () => {
   const [tabs, setTabs] = useState("individual");
-  
+
   return (
     <section className="w-full relative">
       <img
@@ -33,6 +33,7 @@ const GetExclusive = () => {
                 We want to serve you better. Tell us a bit{" "}
                 <br className="hidden tab:block" /> about yourself or company
               </p>
+              <div className="w-full flex items-center justify-between gap-4 border border-[#E7E8E7] bg-white p-2 rounded-2xl"></div>
             </div>
           </div>
         </div>
