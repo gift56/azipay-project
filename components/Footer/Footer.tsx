@@ -54,19 +54,23 @@ const Footer = () => {
                       {item.text}
                     </Link>
                   ))}
+                  <div
+                    className={`w-full h-10 px-4 bg-[#F2F1F1]  items-center justify-between gap-4 rounded-2xl ${
+                      item.headingTitle === "Contact us" ? "flex" : "hidden"
+                    }`}
+                  >
+                    <input
+                      type="text"
+                      className="w-full h-full outline-none border-none text-sm font-normal bg-transparent placeholder:text-gray1 text-gray1 font-samp"
+                      placeholder="Your email address"
+                    />
+                    <span className="cursor-pointer">
+                      <BsSend size={17} />
+                    </span>
+                  </div>
                 </nav>
               </div>
             ))}
-            <div className="w-[255px] h-10 px-4 bg-[#F2F1F1] flex items-center justify-between gap-4 rounded-2xl">
-              <input
-                type="text"
-                className="w-full h-full outline-none border-none text-sm font-normal bg-transparent placeholder:text-gray1 text-gray1 font-samp"
-                placeholder="Your email address"
-              />
-              <span className="cursor-pointer">
-                <BsSend size={17} />
-              </span>
-            </div>
           </div>
         </div>
       </div>
