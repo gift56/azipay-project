@@ -1,3 +1,10 @@
+import {
+  FaInstagram,
+  FaTwitter,
+  FaLinkedinIn,
+  FaFacebookF,
+} from "react-icons/fa";
+
 export const navLinks = [
   {
     href: "/",
@@ -14,5 +21,12 @@ export const navLinks = [
   {
     href: "/",
     text: "Set your payroll",
+  },
+];
+
+export const socialLinks = [
+  {
+    href: "/",
+    icon: FaInstagram,
   },
 ];
