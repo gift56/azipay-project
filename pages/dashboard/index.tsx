@@ -47,7 +47,7 @@ const DashboardPage = () => {
         </div>
       </header>
 
-      <div className="w-full px-5 tab:px-10 py-8  flex flex-col items-start justify-start gap-7">
+      <div className="w-full px-5 tab:px-10 py-8  flex flex-col items-start justify-start gap-7 bg-white tab:bg-transparent">
         <div className="hidden tab:flex flex-col items-start justify-start gap-2">
           <h2 className="text-xl font-bold text-dark md:text-2xl tab:text-3xl">
             Welcome Abasiama
@@ -89,6 +89,9 @@ const DashboardPage = () => {
                 text="Fund Wallet"
                 className="text-primary text-sm font-medium bg-[#D9EBCD] rounded-2xl !px-7 w-full tab:w-fit"
               />
+            </div>
+            <div className="hidden tab:grid grid-cols-4 items-start justify-start gap-6">
+              
             </div>
           </div>
           <div className="w-full hidden lg:flex lg:flex-[0.5]"></div>
