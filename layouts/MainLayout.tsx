@@ -1,3 +1,4 @@
+import { Footer, Navbar } from "@/components";
 import Head from "next/head";
 import React, { ReactNode } from "react";
 
@@ -15,8 +16,9 @@ const MainLayout = ({ children }: LayoutProps) => {
           content="We’ve built an all-inclusive simple solution for individual and businesses to manage staff, pay salaries, bills, and relevant taxes all at once."
         />
       </Head>
-      
+      <Navbar />
       <main className="w-full">{children}</main>
+      <Footer />
     </>
   );
 };
