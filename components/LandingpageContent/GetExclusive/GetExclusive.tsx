@@ -55,6 +55,14 @@ const GetExclusive = () => {
                   Company
                 </h4>
               </div>
+              <div className="w-full flex flex-col items-start justify-start gap-5">
+                <input
+                  type="text"
+                  name="first_name"
+                  placeholder="First Name"
+                  className="outline-none w-full border border-[#8D8E8D] text-sm font-normal px-4 h-12 rounded-2xl focus:border-primary"
+                />
+              </div>
             </div>
           </div>
         </div>
