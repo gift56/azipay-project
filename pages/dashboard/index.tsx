@@ -58,6 +58,7 @@ const DashboardPage = () => {
             Pay and manage your employee in minutes
           </p>
         </div>
+        
         <div className="w-full flex items-start justify-between gap-6">
           <div className="w-full lg:flex-[2] flex flex-col gap-6 items-start justify-start">
             <div className="w-full tab:w-[90%] flex flex-col tab:flex-row items-start gap-4 tab:items-end justify-between bg-primary bg-cardImg bg-no-repeat bg-[length_150%_120%] bg-[center_top_-2rem] tab:h-[150px] h-fit rounded-2xl text-white p-5">
