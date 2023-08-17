@@ -54,6 +54,13 @@ const Footer = () => {
                       {item.text}
                     </Link>
                   ))}
+                  <div
+                    className={`${
+                      item.headingTitle === "Contact us" ? "flex" : "hidden"
+                    } w-full bg-[#F2F1F1]`}
+                  >
+                    fdnevkj nks
+                  </div>
                 </nav>
               </div>
             ))}
