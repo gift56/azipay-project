@@ -114,4 +114,8 @@ export const footerLinks = [
   },
 ];
 
-export const dashboardSideLink = [];
+export const dashboardSideLink = [
+  {
+    img: "/icons/icon1/svg",
+  },
+];
