@@ -1,4 +1,5 @@
 import DashboardLayout from "@/layouts/DashboardLayout";
+import { BiChevronRight } from "react-icons/bi";
 
 const DashboardPage = () => {
   return (
@@ -30,7 +31,12 @@ const DashboardPage = () => {
               <h2 className="text-base font-bold text-[#2B2B2B]">
                 Kalu Abasiama
               </h2>
-              <p className="text-sm font-medium text-[#898989]">Admin</p>
+              <div className="flex items-center justify-between w-full">
+                <p className="text-sm font-medium text-[#898989]">Admin</p>
+                <span>
+                  <BiChevronRight size={20} />
+                </span>
+              </div>
             </div>
           </div>
         </div>
