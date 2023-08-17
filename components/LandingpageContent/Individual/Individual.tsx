@@ -4,7 +4,7 @@ const Individual = () => {
   return (
     <section className="w-full py-20 bg-individualImg bg-[#F0F7EB] bg-no-repeat bg-cover">
       <div className="container">
-        <div className="w-full flex flex-col items-center justify-center gap-6">
+        <div className="w-full flex flex-col items-center justify-center gap-8">
           <div className="w-full flex flex-col items-center justify-center">
             <h2 className="font-play font-bold text-2xl text-center md:text-4xl text-primary">
               For Individuals and Businesses
@@ -14,7 +14,7 @@ const Individual = () => {
             </p>
           </div>
           <div className="relative w-full flex items-center justify-center flex-col gap-6 tab:gap-0">
-            <div className="w-full tab:w-[480px] tab:h-[280px] p-6 bg-primary text-white rounded-2xl flex flex-col items-start justify-start gap-6 tab:absolute tab:left-0">
+            <div className="w-full tab:w-[480px] tab:h-[280px] p-6 bg-primary text-white rounded-2xl flex flex-col items-start justify-start gap-6 tab:absolute tab:left-6">
               <h2 className="text-lg font-bold sm:text-xl tab:text-2xl">
                 Tamper-proof Payroll for LIfe
               </h2>
@@ -26,7 +26,7 @@ const Individual = () => {
                 <span>Download your payroll history anytime you need it.</span>
               </p>
             </div>
-            <div className="w-full tab:w-[540px] tab:h-[280px] p-6 bg-primary text-white rounded-2xl flex flex-col items-start justify-start gap-6 tab:relative tab:z-20">
+            <div className="w-full tab:w-[540px] tab:h-[280px] p-6 bg-primary shadow-cardShad text-white rounded-2xl flex flex-col items-start justify-start gap-6 tab:relative tab:z-20">
               <h2 className="text-lg font-bold sm:text-xl tab:text-2xl">
                 All Payroll, Anytime Anywhere
               </h2>
@@ -42,7 +42,7 @@ const Individual = () => {
                 </span>
               </p>
             </div>
-            <div className="w-full tab:w-[540px] tab:h-[280px] p-6 bg-primary text-white rounded-2xl flex flex-col items-start justify-start gap-6 tab:absolute tab:right-0 tab:z-30">
+            <div className="w-full tab:w-[540px] tab:h-[280px] p-6 bg-primary shadow-cardShad text-white rounded-2xl flex flex-col items-start justify-start gap-6 tab:absolute tab:right-0 tab:z-30">
               <h2 className="text-lg font-bold sm:text-xl tab:text-2xl">
                 Payroll in Seconds
               </h2>
