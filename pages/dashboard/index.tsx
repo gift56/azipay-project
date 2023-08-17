@@ -42,8 +42,13 @@ const DashboardPage = () => {
         </div>
       </header>
 
-      <div className="w-full px-5 tab:px-10  flex flex-col items-start justify-start gap-7">
-
+      <div className="w-full px-5 tab:px-10 py-8  flex flex-col items-start justify-start gap-7">
+        <div className="hidden tab:flex flex-col items-start justify-start gap-2">
+          <h2 className="text-xl font-bold text-dark md:text-2xl tab:text-3xl">
+            Welcome Abasiama
+          </h2>
+          <p className="text-base font-medium text-gray1">Pay and manage your employee in minutes</p>
+        </div>
       </div>
     </DashboardLayout>
   );
