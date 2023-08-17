@@ -3,6 +3,7 @@ import DashboardLayout from "@/layouts/DashboardLayout";
 import { useState } from "react";
 import { BiChevronRight } from "react-icons/bi";
 import { AiOutlineEyeInvisible } from "react-icons/ai";
+import { cardData } from "@/utils/constant";
 
 const DashboardPage = () => {
   const [displayBaLance, setDisplayBaLance] = useState(false);
@@ -90,8 +91,16 @@ const DashboardPage = () => {
                 className="text-primary text-sm font-medium bg-[#D9EBCD] rounded-2xl !px-7 w-full tab:w-fit"
               />
             </div>
-            <div className="hidden tab:grid grid-cols-4 items-start justify-start gap-6">
-              
+            <div className="hidden tab:grid grid-cols-4 items-start justify-start gap-6 w-[90%]">
+              {cardData.map((item, index: any) => (
+                <div
+                  key={index}
+                  className="w-full flex flex-col items-center justify-center gap-3 bg-white border border-[#E7E8E7] rounded-2xl shadow-contactShad p-4"
+                >
+                  <img src={item.img} alt={`${item.text}-icon`} />
+                  <span className="text-gray1 text-sm font-medium">{item.text}</span>
+                </div>
+              ))}
             </div>
           </div>
           <div className="w-full hidden lg:flex lg:flex-[0.5]"></div>
