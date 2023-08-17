@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <header className="w-full sticky bg-white top-0">
-      <div className="container">
+      <div className="container relative">
         <div className="w-full flex items-center justify-between gap-5 py-4">
           <Link href="/">
             <img src="/imgs/logo.svg" alt="Easypay-logo" />
@@ -64,6 +64,15 @@ const Navbar = () => {
           >
             {mobileNav === false && <FaBars size={25} />}
           </span>
+        </div>
+
+        {/* MOBILE NAV */}
+        <div
+          className={`${
+            mobileNav ? "left-0" : "-left-full"
+          } tab:hidden flex flex-col h-screen bg-black/40 gap-7 absolute top-0 w-full z-40 transition-all duration-300 `}
+        >
+          
         </div>
       </div>
     </header>
