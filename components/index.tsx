@@ -1,5 +1,6 @@
 import Button from "./Button/Button";
 import DashboardSidebar from "./DashboardContent/DashboardSidebar/DashboardSidebar";
+import MobileDashNav from "./DashboardContent/DashboardSidebar/MobileDashNav/MobileDashNav";
 import Footer from "./Footer/Footer";
 import Easypay from "./LandingpageContent/Easypay/Easypay";
 import FreeForever from "./LandingpageContent/FreeForever/FreeForever";
@@ -18,4 +19,5 @@ export {
   Easypay,
   Individual,
   DashboardSidebar,
+  MobileDashNav,
 };
