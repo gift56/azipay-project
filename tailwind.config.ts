@@ -33,6 +33,7 @@ const config: Config = {
       boxShadow: {
         cardShad:
           "-11px 0px 19px 0px rgba(23, 23, 23, 0.30), 0px 13px 20px 0px rgba(23, 23, 23, 0.20)",
+        contactShad: "0px 20px 48px 0px rgba(170, 170, 170, 0.29)",
       },
     },
   },

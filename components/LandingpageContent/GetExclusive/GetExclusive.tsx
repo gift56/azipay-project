@@ -21,7 +21,15 @@ const GetExclusive = () => {
             </p>
           </div>
           <div className="w-full tab:flex-1">
-            <div className="flex flex-col items-center justify-center gap-6 w-full sm:w-[552px]"></div>
+            <div className="flex flex-col items-center justify-center gap-6 w-full sm:w-[502px] p-5 shadow-contactShad bg-white border border-[#E7E8E7] rounded-3xl">
+              <h2 className="text-xl font-bold text-dark md:text-2xl">
+                First things first
+              </h2>
+              <p className="w-full text-center text-base font-normal text-[#444444] md:text-lg">
+                We want to serve you better. Tell us a bit{" "}
+                <br className="hidden tab:block" /> about yourself or company
+              </p>
+            </div>
           </div>
         </div>
       </div>
