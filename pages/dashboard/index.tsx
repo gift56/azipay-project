@@ -111,7 +111,7 @@ const DashboardPage = () => {
               <h3 className="text-base font-bold text-gray1 text-center w-full bg-[#D9EBCD] py-2 px-3">
                 Next Payroll
               </h3>
-              <div className="flex items-center justify-center gap-3 border-b bg-white py-6 flex-col">
+              <div className="flex items-center justify-center gap-2 border-b bg-white py-6 flex-col">
                 <span className="flex items-center gap-2 text-gray1 text-sm font-normal">
                   <span>
                     <MdOutlineCalendarMonth size={30} />
@@ -119,6 +119,10 @@ const DashboardPage = () => {
                   <span>Friday</span>
                 </span>
                 <span className="text-lg font-bold text-gray1">09/11/2022</span>
+              </div>
+
+              <div className="flex items-start justify-start gap-3 bg-white p-4 flex-col">
+                
               </div>
             </div>
           </div>
