@@ -5,6 +5,7 @@ import { BiChevronRight } from "react-icons/bi";
 import { AiOutlineEyeInvisible } from "react-icons/ai";
 import { cardData } from "@/utils/constant";
 import { MdOutlineCalendarMonth } from "react-icons/md";
+import { FiSearch } from "react-icons/fi";
 
 const DashboardPage = () => {
   const [displayBaLance, setDisplayBaLance] = useState(false);
@@ -49,7 +50,7 @@ const DashboardPage = () => {
         </div>
       </header>
 
-      <div className="w-full px-5 tab:px-10 py-8  flex flex-col items-start justify-start gap-7 bg-white tab:bg-transparent">
+      <div className="w-full px-5 tab:px-10 py-8  flex flex-col items-start justify-start gap-7 bg-white tab:bg-transparent h-screen overflow-y-auto">
         <div className="hidden tab:flex flex-col items-start justify-start gap-2">
           <h2 className="text-xl font-bold text-dark md:text-2xl tab:text-3xl">
             Welcome Abasiama
@@ -149,6 +150,20 @@ const DashboardPage = () => {
           </div>
         </div>
         <DashboardChart />
+        <div className="w-full hidden tab:flex flex-col items-start justify-start gap-6">
+          <h2 className="text-2xl font-medium text-dark">Recent Activities</h2>
+          <div className="flex items-center justify-between w-full gap-6">
+            <div className="w-[90%] flex items-center justify-between gap-2 h-12">
+              <input
+                type="text"
+                className="h-full w-full outline-none text-base font-normal placeholder:text-gray1 border-t border-l border-b border-[#B5B6B5] bg-white"
+                placeholder="Search employee"
+                id="search"
+              />
+              <Button text={<FiSearch />} />
+            </div>
+          </div>
+        </div>
       </div>
     </DashboardLayout>
   );
