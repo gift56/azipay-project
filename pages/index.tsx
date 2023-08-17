@@ -1,4 +1,4 @@
-import { HeroSection, Individual } from "@/components";
+import { Easypay, HeroSection, Individual } from "@/components";
 import MainLayout from "@/layouts/MainLayout";
 
 const Homepage = () => {
@@ -6,6 +6,7 @@ const Homepage = () => {
     <MainLayout>
       <HeroSection />
       <Individual />
+      <Easypay />
     </MainLayout>
   );
 };
