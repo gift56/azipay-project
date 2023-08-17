@@ -1,5 +1,6 @@
 import { ReactNode } from "react";
 import Head from "next/head";
+import { DashboardSidebar } from "@/components";
 
 interface LayoutProps {
   children: ReactNode;
