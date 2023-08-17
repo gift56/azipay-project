@@ -1,4 +1,5 @@
 import Button from "./Button/Button";
+import DashboardChart from "./DashboardContent/DashboardChart/DashboardChart";
 import DashboardSidebar from "./DashboardContent/DashboardSidebar/DashboardSidebar";
 import MobileDashNav from "./DashboardContent/DashboardSidebar/MobileDashNav/MobileDashNav";
 import Footer from "./Footer/Footer";
@@ -20,4 +21,5 @@ export {
   Individual,
   DashboardSidebar,
   MobileDashNav,
+  DashboardChart,
 };
