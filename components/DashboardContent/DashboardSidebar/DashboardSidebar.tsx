@@ -25,7 +25,7 @@ const DashboardSidebar = () => {
         </div>
       </div>
 
-      <div className="w-full flex flex-col items-start justify-start h-[90vh] pt-20">
+      <div className="w-full flex flex-col items-start justify-start h-[90vh] pt-28 scroll">
         {dashboardSideLink.map((item, index: any) => (
           <Link
             href={item.href}
