@@ -24,7 +24,7 @@ const DashboardLayout = ({ children }: LayoutProps) => {
       </Head>
 
       <main className="w-full flex items-start justify-start h-screen overflow-auto lg:overflow-hidden">
-        <div className="w-full fixed bottom-0 bg-white lg:relative lg:flex-[0.5]">
+        <div className="w-full fixed bottom-0 bg-white lg:relative lg:flex-[0.4]">
           <DashboardSidebar />
           <MobileDashNav />
         </div>
