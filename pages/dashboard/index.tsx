@@ -10,7 +10,9 @@ const DashboardPage = () => {
           className="hidden tab:flex w-[110px] h-[58px] object-contain"
         />
         <div className="flex items-center justify-end gap-10">
-          
+          <div className="relative">
+            <img src="/icons/bell.svg" alt="" />
+          </div>
         </div>
       </header>
     </DashboardLayout>
