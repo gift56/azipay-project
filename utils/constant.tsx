@@ -170,3 +170,22 @@ export const dashboardSideLink = [
     href: "/",
   },
 ];
+
+export const cardData = [
+  {
+    img: "/icons/dash1.svg",
+    text: "Add Employee",
+  },
+  {
+    img: "/icons/dash2.svg",
+    text: "Pay Salaries",
+  },
+  {
+    img: "/icons/dash3.svg",
+    text: "Pay Compliances",
+  },
+  {
+    img: "/icons/dash4.svg",
+    text: "Quick Loan",
+  },
+];
