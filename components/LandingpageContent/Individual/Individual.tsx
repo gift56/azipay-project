@@ -9,7 +9,12 @@ const Individual = () => {
             <h2 className="font-play font-bold text-2xl text-center md:text-4xl text-primary">
               For Individuals and Businesses
             </h2>
-            <p className="text-base font-normal text-dark">Join 200+ businesses using Eazipay's easy solution.</p>
+            <p className="text-base font-normal text-dark">
+              Join 200+ businesses using Eazipay's easy solution.
+            </p>
+          </div>
+          <div className="relative w-full flex items-center justify-center flex-col gap-6 tab:gap-0">
+            
           </div>
         </div>
       </div>
