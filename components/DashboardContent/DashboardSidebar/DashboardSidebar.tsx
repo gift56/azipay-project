@@ -12,7 +12,15 @@ const DashboardSidebar = () => {
 
   return (
     <nav className="hidden lg:flex flex-col gap-10 items-start justify-start w-full bg-white h-screen overflow-y-auto">
-      DashboardSidebar
+      <div className="w-full flex flex-col items-start justify-start sticky top-[-15px] z-[1] h-[7vh] bg-white">
+        <div className="w-[122px] h-12">
+          <img
+            src="/imgs/dashboardLogo.svg"
+            alt="easypay_logo"
+            className="w-full h-full object-contain"
+          />
+        </div>
+      </div>
     </nav>
   );
 };
