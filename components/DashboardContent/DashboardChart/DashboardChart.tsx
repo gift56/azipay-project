@@ -47,34 +47,12 @@ const labels = [
   "Dec",
 ];
 
-const inflowData: string[] = [
-  "N100M",
-  "N200M",
-  "N150M",
-  "N300M",
-  "N350M",
-  "N180M",
-  "N350M",
-  "N400M",
-  "N280M",
-  "N320M",
-  "N280M",
-  "N200M",
+const inflowData = [
+  1200, 1500, 1300, 1800, 2000, 1600, 2200, 2400, 1900, 2100, 1800, 2200,
 ];
 
-const outflowData: string[] = [
-  "N100M",
-  "N150M",
-  "N100M",
-  "N200M",
-  "N180M",
-  "N120M",
-  "N300M",
-  "N350M",
-  "N250M",
-  "N280M",
-  "N240M",
-  "N180M",
+const outflowData = [
+  1000, 1300, 1100, 1500, 1600, 1300, 1800, 2000, 1500, 1700, 1400, 1600,
 ];
 
 export const data: any = {
