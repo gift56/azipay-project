@@ -11,12 +11,13 @@ const config: Config = {
     extend: {
       colors: {
         primmary: "#11453B",
-      },
-      fontFamily: {
-        samp: "'Satoshi', sans-serif",
         army: "#B4A572",
         danger: "#EA4E4B",
         dark: "#292A29",
+        gray1: "#515251",
+      },
+      fontFamily: {
+        samp: "'Satoshi', sans-serif",
       },
       screens: {
         tab: "920px",

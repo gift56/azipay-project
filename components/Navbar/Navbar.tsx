@@ -34,11 +34,16 @@ const Navbar = () => {
           </Link>
           <nav className="flex items-center justify-center gap-6">
             {navLinks.map((item, index: any) => (
-              <Link href={item.href} key={index}>
+              <Link
+                href={item.href}
+                key={index}
+                className="text-base font-medium text-gray1 hover:text-primmary transition-all"
+              >
                 {item.text}
               </Link>
             ))}
           </nav>
+          <div className="flex items-center gap-7"></div>
         </div>
       </div>
     </header>
