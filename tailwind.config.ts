@@ -22,6 +22,9 @@ const config: Config = {
       screens: {
         tab: "920px",
       },
+      backgroundImage: {
+        heroImg: "url('/imgs/heroImg.png')",
+      },
     },
   },
   plugins: [],
