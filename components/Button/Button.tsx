@@ -14,7 +14,7 @@ const Button = ({ type, text, disabled, className, onClick }: ButtonProps) => {
       type={type}
       disabled={disabled}
       onClick={onClick}
-      className={`${className} py-2 px-2 rounded-lg text-base font-medium cursor-pointer transition-all duration-300 outline-none flex items-center justify-center border hover:opacity-90`}
+      className={`${className} py-2 px-2 text-base font-medium cursor-pointer transition-all duration-300 outline-none flex items-center justify-center border hover:opacity-90`}
     >
       {text}
     </button>

@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <header className="w-full sticky bg-white top-0">
       <div className="tab:container relative">
-        <div className="w-full flex items-center justify-between gap-5 py-4 px-6 tab:px-0">
+        <div className="w-full flex items-center justify-between gap-5 py-4 px-6 lg:px-0">
           <Link href="/">
             <img src="/imgs/logo.svg" alt="Easypay-logo" />
           </Link>
@@ -48,13 +48,13 @@ const Navbar = () => {
             <Link href="/">
               <Button
                 text="Log in"
-                className="text-primary border-primary w-[168px] rounded-[24px]"
+                className="text-primary border-primary tab:w-[148px] lg:w-[168px] rounded-3xl"
               />
             </Link>
             <Link href="/">
               <Button
                 text="Register"
-                className="text-white border-primary bg-primary w-[168px] rounded-[24px]"
+                className="text-white border-primary bg-primary tab:w-[148px] lg:w-[168px] rounded-3xl"
               />
             </Link>
           </div>
