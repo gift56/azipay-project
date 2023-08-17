@@ -20,7 +20,6 @@ ChartJS.register(
   Legend
 );
 
-
 export const options = {
   responsive: true,
   plugins: {
@@ -48,12 +47,34 @@ const labels = [
   "Dec",
 ];
 
-const inflowData: number[] = [
-  100, 200, 150, 300, 250, 180, 350, 400, 280, 320, 280, 200,
+const inflowData: string[] = [
+  "N100M",
+  "N200M",
+  "N150M",
+  "N300M",
+  "N350M",
+  "N180M",
+  "N350M",
+  "N400M",
+  "N280M",
+  "N320M",
+  "N280M",
+  "N200M",
 ];
 
-const outflowData: number[] = [
-  100, 150, 100, 200, 180, 120, 300, 350, 250, 280, 240, 180,
+const outflowData: string[] = [
+  "N100M",
+  "N150M",
+  "N100M",
+  "N200M",
+  "N180M",
+  "N120M",
+  "N300M",
+  "N350M",
+  "N250M",
+  "N280M",
+  "N240M",
+  "N180M",
 ];
 
 export const data: any = {
