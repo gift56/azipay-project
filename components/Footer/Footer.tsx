@@ -7,7 +7,7 @@ const Footer = () => {
   const year = date.getFullYear();
 
   return (
-    <footer className="w-full">
+    <footer className="w-full border-t border-[#EAEAEA]">
       <div className="container">
         <div className="w-full py-16 flex flex-col tab:flex-row justify-between items-start gap-7 tab:gap-0">
           <div className="w-full tab:flex-[1] flex flex-col items-start gap-4">
