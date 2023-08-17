@@ -31,8 +31,8 @@ const DashboardPage = () => {
               <h2 className="text-base font-bold text-[#2B2B2B]">
                 Kalu Abasiama
               </h2>
-              <div className="flex items-center justify-between w-full">
-                <p className="text-sm font-medium text-[#898989]">Admin</p>
+              <div className="flex items-center justify-between w-full text-[#898989] cursor-pointer">
+                <p className="text-sm font-medium">Admin</p>
                 <span>
                   <BiChevronRight size={20} />
                 </span>
