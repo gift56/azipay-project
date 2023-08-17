@@ -17,6 +17,10 @@ const MainLayout = ({ children }: LayoutProps) => {
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="imgs/favicon.svg" sizes="1088x468" />
+        <link
+          href="https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,300,400&display=swap"
+          rel="stylesheet"
+        />
       </Head>
       <Navbar />
       <main className="w-full">{children}</main>

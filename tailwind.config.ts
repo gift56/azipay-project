@@ -12,6 +12,9 @@ const config: Config = {
       colors: {
         primmary: "#11453B",
       },
+      screens: {
+        tab: "920px",
+      },
     },
   },
   plugins: [],
