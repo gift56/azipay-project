@@ -4,6 +4,7 @@ import { useState } from "react";
 import { BiChevronRight } from "react-icons/bi";
 import { AiOutlineEyeInvisible } from "react-icons/ai";
 import { cardData } from "@/utils/constant";
+import { MdOutlineCalendarMonth } from "react-icons/md";
 
 const DashboardPage = () => {
   const [displayBaLance, setDisplayBaLance] = useState(false);
@@ -98,12 +99,29 @@ const DashboardPage = () => {
                   className="w-full flex flex-col items-center justify-center gap-3 bg-white border border-[#E7E8E7] rounded-2xl shadow-contactShad p-4"
                 >
                   <img src={item.img} alt={`${item.text}-icon`} />
-                  <span className="text-gray1 text-sm font-medium">{item.text}</span>
+                  <span className="text-gray1 text-sm font-medium">
+                    {item.text}
+                  </span>
                 </div>
               ))}
             </div>
           </div>
-          <div className="w-full hidden lg:flex lg:flex-[0.5]"></div>
+          <div className="w-full hidden lg:flex lg:flex-[0.6] items-center justify-center">
+            <div className="rounded-2xl w-full border border-[#E7E8E7] shadow-payrollShad overflow-hidden">
+              <h3 className="text-base font-bold text-gray1 text-center w-full bg-[#D9EBCD] py-2 px-3">
+                Next Payroll
+              </h3>
+              <div className="flex items-center justify-center gap-3 border-b bg-white py-6 flex-col">
+                <span className="flex items-center gap-2 text-gray1 text-sm font-normal">
+                  <span>
+                    <MdOutlineCalendarMonth size={30} />
+                  </span>
+                  <span>Friday</span>
+                </span>
+                <span className="text-lg font-bold text-gray1">09/11/2022</span>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </DashboardLayout>
