@@ -28,8 +28,8 @@ const Navbar = () => {
 
   return (
     <header className="w-full sticky bg-white top-0">
-      <div className="tab:container relative">
-        <div className="w-full flex items-center justify-between gap-5 py-4 px-6 lg:px-0">
+      <div className="w-full mx-auto tab:w-[95%] lg:w-[75%] relative">
+        <div className="w-full flex items-center justify-between gap-5 py-4 px-6 tab:px-0">
           <Link href="/">
             <img src="/imgs/logo.svg" alt="Easypay-logo" />
           </Link>
