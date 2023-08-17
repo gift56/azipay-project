@@ -5,10 +5,11 @@ const HeroSection = () => {
   return (
     <section className="w-full tab:bg-heroImg bg-no-repeat bg-[length:750px_500px] bg-[top_right_-7rem] relative">
       <div className="container">
-        <div className="w-full flex items-center justify-center py-10 flex-col tab:flex-row gap-8">
+        <div className="w-full flex items-center justify-between py-10 flex-col tab:flex-row gap-8">
           <div className="w-full tab:flex-1 flex flex-col items-start justify-start gap-8">
             <h2 className="text-3xl font-bold text-dark md:text-4xl tab:text-6xl font-play">
               Run your <span className="text-primary">payroll</span>{" "}
+              <br className="hidden monitor:block" />
               <span className="text-army">easily</span> in{" "}
               <span className="text-danger">seconds</span>
             </h2>
