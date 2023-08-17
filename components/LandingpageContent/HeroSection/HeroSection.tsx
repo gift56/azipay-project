@@ -84,7 +84,6 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
-      <div className="w-40 h-40 bg-red-500 rounded-full"></div>
     </section>
   );
 };
