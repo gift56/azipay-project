@@ -20,12 +20,18 @@ const DashboardPage = () => {
               7
             </span>
           </div>
-          <div className="flex items-center gap-6">
+          <div className="flex items-center gap-5">
             <img
               src="/imgs/userAvatar.png"
               alt="/"
               className="w-[56px] aspect-square object-cover"
             />
+            <div className="flex flex-col items-start justify-start">
+              <h2 className="text-base font-bold text-[#2B2B2B]">
+                Kalu Abasiama
+              </h2>
+              <p className="text-sm font-medium text-[#898989]">Admin</p>
+            </div>
           </div>
         </div>
       </header>
