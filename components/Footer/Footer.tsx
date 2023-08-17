@@ -1,4 +1,4 @@
-import { socialLinks } from "@/utils/constant";
+import { footerLinks, socialLinks } from "@/utils/constant";
 import Link from "next/link";
 import { BsSend } from "react-icons/bs";
 
@@ -9,8 +9,8 @@ const Footer = () => {
   return (
     <footer className="w-full">
       <div className="container">
-        <div className="w-full py-16 grid grid-cols-2 tab:grid-cols-3 xl:grid-cols-5">
-          <div className="w-full flex flex-col items-start gap-4">
+        <div className="w-full py-16 flex justify-between items-start">
+          <div className="w-full tab:flex-[1] flex flex-col items-start gap-4">
             <Link href="/">
               <img
                 src="/imgs/darkLogo.svg"
@@ -34,8 +34,24 @@ const Footer = () => {
               ))}
             </div>
           </div>
-          <div className="w-full flex flex-col items-start gap-4">
-            
+          <div className="grid grid-cols-2 tab:grid-cols-3 xl:grid-cols-4 w-full tab:flex-[2]">
+            {footerLinks.map((item, index: any) => (
+              <div
+                className="w-full flex flex-col items-start gap-4"
+                key={index}
+              >
+                <h2 className="text-xl font-medium text-dark">
+                  {item.headingTitle}
+                </h2>
+                <nav className="flex flex-col items-start justify-start gap-5">
+                  {item.links.map((item, index: any) => (
+                    <Link key={index} href={item.href}>
+                      {item.text}
+                    </Link>
+                  ))}
+                </nav>
+              </div>
+            ))}
           </div>
         </div>
       </div>
