@@ -77,7 +77,7 @@ const DashboardPage = () => {
               </div>
               <Button
                 text="Fund Wallet"
-                className="text-primary text-sm font-medium bg-[#D9EBCD] rounded-2xl"
+                className="text-primary text-sm font-medium bg-[#D9EBCD] rounded-2xl !px-7 w-full tab:w-fit"
               />
             </div>
           </div>
