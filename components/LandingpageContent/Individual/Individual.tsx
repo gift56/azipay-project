@@ -2,7 +2,7 @@ import React from "react";
 
 const Individual = () => {
   return (
-    <section className="w-full py-20 bg-individualImg bg-[#F0F7EB] bg-no-repeat bg-cover">
+    <section className="w-full py-20 bg-[#F0F7EB]">
       <div className="container">
         <div className="w-full flex flex-col items-center justify-center gap-8">
           <div className="w-full flex flex-col items-center justify-center">
