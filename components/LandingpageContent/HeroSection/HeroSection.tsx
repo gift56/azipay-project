@@ -1,8 +1,6 @@
-import { motion } from "framer-motion";
-
 const HeroSection = () => {
   return (
-    <section className="w-full">
+    <section className="w-full bg-heroImg bg-no-repeat bg-right bg-[length:670px_500px]">
       <div className="container">
         <div className="w-full flex items-center justify-center py-10 tab:h-[90vh] flex-col tab:flex-row gap-8">
           <div className="w-full tab:flex-1 flex flex-col items-start justify-start gap-8">
@@ -13,12 +11,10 @@ const HeroSection = () => {
             </h2>
           </div>
           <div className="w-full tab:flex-1">
-            <motion.img
-              initial={{ opacity: 0, scale: 0 }}
-              whileInView={{ opacity: 1, scale: 1 }}
-              viewport={{ once: true }}
+            <img
               src="/imgs/heroImg.png"
               alt="hero-image"
+              className="tab:hidden"
             />
           </div>
         </div>
