@@ -122,7 +122,10 @@ const DashboardPage = () => {
               </div>
 
               <div className="flex items-start justify-start gap-3 bg-white p-4 flex-col">
-                
+                <h4 className="text-base font-medium text-gray1">
+                  Total Employee
+                </h4>
+                <span className="text-3xl font-bold text-dark">64</span>
               </div>
             </div>
           </div>
