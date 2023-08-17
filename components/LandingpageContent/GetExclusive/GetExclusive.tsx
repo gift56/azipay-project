@@ -60,7 +60,7 @@ const GetExclusive = () => {
                   type="text"
                   name="first_name"
                   placeholder="First Name"
-                  className="outline-none w-full border border-[#8D8E8D] text-sm font-normal px-4 h-12 rounded-2xl focus:border-primary"
+                  className="outline-none w-full border border-[#8D8E8D] text-base text-[#8D8E8D] font-normal px-4 h-12 rounded-2xl focus:border-primary placeholder:text-[#8D8E8D] placeholder:text-base"
                 />
               </div>
             </div>
