@@ -62,7 +62,7 @@ const DashboardPage = () => {
                   Wallet Balance
                 </h4>
                 <div className="flex items-center justify-start gap-1">
-                  <h5 className="text-xl font-bold md:text-2xl tab:text-3xl">
+                  <h5 className="text-xl font-bold md:text-2xl">
                     {!displayBaLance ? "N12,560,078.00" : "XXXXXXXXXX"}
                   </h5>
 
