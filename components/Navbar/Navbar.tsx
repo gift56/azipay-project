@@ -74,8 +74,34 @@ const Navbar = () => {
         >
           <div
             ref={modalRef}
-            className="flex flex-col h-full bg-white gap-7 p-4 w-[250px]"
-          ></div>
+            className="flex flex-col h-full bg-white gap-5 p-4 w-[250px]"
+          >
+            <nav className="flex flex-col items-start justify-start gap-6 w-full">
+              {navLinks.map((item, index: any) => (
+                <Link
+                  href={item.href}
+                  key={index}
+                  className="text-base font-medium text-gray1 hover:text-primary transition-all w-full"
+                >
+                  {item.text}
+                </Link>
+              ))}
+            </nav>
+            <div className="flex flex-col items-start gap-5 w-full">
+              <Link href="/">
+                <Button
+                  text="Log in"
+                  className="text-primary border-primary w-[168px] rounded-[24px]"
+                />
+              </Link>
+              <Link href="/">
+                <Button
+                  text="Register"
+                  className="text-white border-primary bg-primary w-[168px] rounded-[24px]"
+                />
+              </Link>
+            </div>
+          </div>
         </div>
       </div>
     </header>
