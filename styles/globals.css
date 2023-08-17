@@ -21,9 +21,9 @@ img {
   height: 4px;
 }
 .scrolltiny::-webkit-scrollbar-thumb {
-  background-color: #182634;
+  background-color: #11453B;
   border-radius: 40px;
 }
 .scrolltiny::-webkit-scrollbar-track {
-  background-color: #182634;
+  background-color: #b4b8bb;
 }

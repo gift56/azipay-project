@@ -14,18 +14,18 @@ const DashboardSidebar = () => {
   };
 
   return (
-    <nav className="hidden lg:flex flex-col gap-10 items-start justify-start w-full bg-white h-screen overflow-y-auto">
+    <nav className="hidden lg:flex flex-col gap-10 items-start justify-start w-full bg-white h-screen overflow-y-auto scrolltiny">
       <div className="w-full flex flex-col items-start justify-start sticky z-[1] top-[-15px] h-[4vh] bg-primary">
-        <div>
+        <div className="w-full">
           <img
             src="/imgs/dashboardLogo.png"
             alt="easypay_logo"
-            className="w-full h-full object-cover"
+            className="w-full h-auto object-cover"
           />
         </div>
       </div>
 
-      <div className="w-full flex flex-col items-start justify-start h-[90vh] pt-28 scroll">
+      <div className="w-full flex flex-col items-start justify-start h-[90vh] pt-28 scrolltiny">
         {dashboardSideLink.map((item, index: any) => (
           <Link
             href={item.href}
