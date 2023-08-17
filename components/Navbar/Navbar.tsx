@@ -33,7 +33,7 @@ const Navbar = () => {
           <Link href="/">
             <img src="/imgs/logo.svg" alt="Easypay-logo" />
           </Link>
-          <nav className="flex items-center justify-center gap-6">
+          <nav className="hidden tab:flex items-center justify-center gap-6">
             {navLinks.map((item, index: any) => (
               <Link
                 href={item.href}
@@ -44,7 +44,7 @@ const Navbar = () => {
               </Link>
             ))}
           </nav>
-          <div className="flex items-center gap-7">
+          <div className="hidden tab:flex items-center gap-7">
             <Link href="/">
               <Button
                 text="Log in"
