@@ -24,9 +24,10 @@ const DashboardLayout = ({ children }: LayoutProps) => {
       </Head>
 
       <main className="w-full flex items-start justify-start h-screen overflow-auto lg:overflow-hidden">
-        <div className="lg:flex-[0.5]">
+        <div className="w-full lg:flex-[0.8]">
           <DashboardSidebar />
         </div>
+        <div className="lg:flex-[2] w-full">{children}</div>
       </main>
     </>
   );
