@@ -25,6 +25,7 @@ const config: Config = {
       },
       backgroundImage: {
         heroImg: "url('/imgs/heroImg.png')",
+        individualImg: "url('/imgs/IntersectBg.png')",
       },
     },
   },
