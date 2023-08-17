@@ -184,6 +184,35 @@ const DashboardPage = () => {
                   </h5>
                   <div className="flex items-center justify-start gap-3">
                     <img src="/imgs/userName.png" alt="user_name" />
+                    <span className="text-gray1 text-base font-medium">
+                      Badmus Kemis
+                    </span>
+                  </div>
+                </div>
+                <div className="flex flex-col items-start justify-start gap-2">
+                  <h5 className="text-sm font-normal text-[#8D8E8D]">
+                    ACTIVITY
+                  </h5>
+                  <div className="flex items-center justify-start gap-3">
+                    <span className="text-gray1 text-base font-medium">
+                      Paid November 2022 salary
+                    </span>
+                  </div>
+                </div>
+                <div className="flex flex-col items-start justify-start gap-2">
+                  <h5 className="text-sm font-normal text-[#8D8E8D]">
+                    EMPLOYEE
+                  </h5>
+                  <div className="flex items-center justify-start gap-3">
+                    <span className="text-gray1 text-base font-medium">52</span>
+                  </div>
+                </div>
+                <div className="flex flex-col items-start justify-start gap-2">
+                  <h5 className="text-sm font-normal text-[#8D8E8D]">TIME</h5>
+                  <div className="flex items-center justify-start gap-3">
+                    <span className="text-gray1 text-base font-medium">
+                      16:15
+                    </span>
                   </div>
                 </div>
               </div>
