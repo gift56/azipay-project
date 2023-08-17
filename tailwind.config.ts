@@ -18,6 +18,7 @@ const config: Config = {
       },
       fontFamily: {
         samp: "'Satoshi', sans-serif",
+        play: "'Playfair Display', serif",
       },
       screens: {
         tab: "920px",
