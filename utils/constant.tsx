@@ -114,5 +114,4 @@ export const footerLinks = [
   },
 ];
 
-
-export const
+export const dashboardSideLink = [];
