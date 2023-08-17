@@ -1,3 +1,4 @@
+import { Button } from "@/components";
 import { useState } from "react";
 
 const GetExclusive = () => {
@@ -11,7 +12,7 @@ const GetExclusive = () => {
         className="absoulte top-20 w-[126px] md:w-[187px] aspect-square"
       />
       <div className="container">
-        <div className="w-full flex flex-col tab:flex-row tab:justify-between gap-6 tab:items-center items-start justify-start py-12 tab:py-28">
+        <div className="w-full flex flex-col tab:flex-row tab:justify-between gap-6 tab:items-center items-start justify-start py-12 tab:py-20">
           <div className="w-full tab:flex-1 flex flex-col items-start justify-start gap-8">
             <h2 className="text-3xl font-bold text-primary md:text-4xl tab:text-[56px] tab:leading-[64px] font-play">
               Get an Exclusive <br className="hidden tab:block" /> Demo of
@@ -55,12 +56,41 @@ const GetExclusive = () => {
                   Company
                 </h4>
               </div>
+
               <div className="w-full flex flex-col items-start justify-start gap-5">
                 <input
                   type="text"
                   name="first_name"
                   placeholder="First Name"
                   className="outline-none w-full border border-[#8D8E8D] text-base text-[#8D8E8D] font-normal px-4 h-12 rounded-2xl focus:border-primary placeholder:text-[#8D8E8D] placeholder:text-base"
+                />
+                <input
+                  type="text"
+                  name="last_name"
+                  placeholder="Last Name"
+                  className="outline-none w-full border border-[#8D8E8D] text-base text-[#8D8E8D] font-normal px-4 h-12 rounded-2xl focus:border-primary placeholder:text-[#8D8E8D] placeholder:text-base"
+                />
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="Email"
+                  className="outline-none w-full border border-[#8D8E8D] text-base text-[#8D8E8D] font-normal px-4 h-12 rounded-2xl focus:border-primary placeholder:text-[#8D8E8D] placeholder:text-base"
+                />
+                <input
+                  type="text"
+                  name="job_title"
+                  placeholder="Job Tittle"
+                  className="outline-none w-full border border-[#8D8E8D] text-base text-[#8D8E8D] font-normal px-4 h-12 rounded-2xl focus:border-primary placeholder:text-[#8D8E8D] placeholder:text-base"
+                />
+                <input
+                  type="text"
+                  name="company_size"
+                  placeholder="Company Size"
+                  className="outline-none w-full border border-[#8D8E8D] text-base text-[#8D8E8D] font-normal px-4 h-12 rounded-2xl focus:border-primary placeholder:text-[#8D8E8D] placeholder:text-base"
+                />
+                <Button
+                  text="Request Demo"
+                  className="w-full bg-primary border-primary rounded-3xl text-white"
                 />
               </div>
             </div>
