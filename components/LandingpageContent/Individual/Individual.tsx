@@ -14,7 +14,18 @@ const Individual = () => {
             </p>
           </div>
           <div className="relative w-full flex items-center justify-center flex-col gap-6 tab:gap-0">
-            
+            <div className="w-fit p-6 bg-primary text-white rounded-2xl flex flex-col items-start justify-start gap-6">
+              <h2 className="text-lg font-bold sm:text-xl tab:text-2xl">
+                Tamper-proof Payroll for LIfe
+              </h2>
+              <p className="flex flex-col items-start justify-start gap-3 text-base font-normal">
+                <span>
+                  Your staff payroll history is kept in one place forever.
+                </span>
+                <span>No more excel sheet or manual records.</span>
+                <span>Download your payroll history anytime you need it.</span>
+              </p>
+            </div>
           </div>
         </div>
       </div>
