@@ -20,6 +20,7 @@ ChartJS.register(
   Legend
 );
 
+
 export const options = {
   responsive: true,
   plugins: {
@@ -47,11 +48,15 @@ const labels = [
   "Dec",
 ];
 
-const inflowData = [100, 200, 150, 300, 250, 180, 350, 400, 280, 320, 280, 200];
+const inflowData: number[] = [
+  100, 200, 150, 300, 250, 180, 350, 400, 280, 320, 280, 200,
+];
 
-const outflowData = [80, 150, 100, 200, 180, 120, 300, 350, 250, 280, 240, 180];
+const outflowData: number[] = [
+  100, 150, 100, 200, 180, 120, 300, 350, 250, 280, 240, 180,
+];
 
-export const data = {
+export const data: any = {
   labels,
   datasets: [
     {
