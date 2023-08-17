@@ -220,7 +220,7 @@ const DashboardPage = () => {
               <div className="bg-white w-full flex items-end justify-between px-8 py-3 rounded-2xl gap-5">
                 <div className="flex flex-col items-start justify-start gap-2">
                   <h5 className="text-sm font-normal text-[#8D8E8D]">
-                    PAYROLL
+                    EMPLOYEE MANAGEMENT
                   </h5>
                   <div className="flex items-center justify-start gap-3">
                     <img src="/imgs/useravatar2.png" alt="user_name" />
