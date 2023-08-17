@@ -1,3 +1,5 @@
+import { dashboardSideLink } from "@/utils/constant";
+import Link from "next/link";
 import { useRouter } from "next/router";
 
 const DashboardSidebar = () => {
@@ -23,7 +25,13 @@ const DashboardSidebar = () => {
       </div>
 
       <div className="w-full flex flex-col items-start justify-start h-[90vh] pt-20">
-
+        {dashboardSideLink.map((item, index: any) => (
+          <Link
+            href={item.href}
+            key={index}
+            className={`${activePath(item.href) ? "border-l-2 border-primary bg-[#f0f7eb80]" : ""}`}
+          ></Link>
+        ))}
       </div>
     </nav>
   );
