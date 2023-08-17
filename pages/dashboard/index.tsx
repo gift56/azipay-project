@@ -172,7 +172,7 @@ const DashboardPage = () => {
           </div>
         </div>
 
-        <div className="w-full hidden tab:flex items-start flex-col justify-start gap-6 bg-[#f2f1f15e] rounded-2xl p-6 pt-7">
+        <div className="w-full hidden tab:flex items-start flex-col justify-start gap-6 rounded-2xl p-6 pt-7 bg-[#f2f1f15e]">
           <div className="flex items-start justify-start flex-col gap-5 w-full">
             <h3 className="text-gray1 font-medium text-lg">
               Wednesday, November 09, 2022
