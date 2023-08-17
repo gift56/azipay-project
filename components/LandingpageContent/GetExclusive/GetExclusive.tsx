@@ -33,7 +33,28 @@ const GetExclusive = () => {
                 We want to serve you better. Tell us a bit{" "}
                 <br className="hidden tab:block" /> about yourself or company
               </p>
-              <div className="w-full flex items-center justify-between gap-4 border border-[#E7E8E7] bg-white p-2 rounded-2xl"></div>
+              <div className="w-full flex items-center justify-between gap-4 border border-[#E7E8E7] bg-white p-2 rounded-2xl">
+                <h4
+                  onClick={() => setTabs("individual")}
+                  className={`${
+                    tabs === "individual"
+                      ? "bg-primary text-white"
+                      : "bg-[#F2F1F1] text-gray1"
+                  } transition-all duration-300 w-[50%] rounded-xl flex items-center justify-center text-center text-base font-medium py-2 tracking-[0.1px] cursor-pointer`}
+                >
+                  Individual
+                </h4>
+                <h4
+                  onClick={() => setTabs("company")}
+                  className={`${
+                    tabs === "company"
+                      ? "bg-primary text-white"
+                      : "bg-[#F2F1F1] text-gray1"
+                  } transition-all duration-300 w-[50%] rounded-xl flex items-center justify-center text-center text-base font-medium py-2 tracking-[0.1px] cursor-pointer`}
+                >
+                  Company
+                </h4>
+              </div>
             </div>
           </div>
         </div>
