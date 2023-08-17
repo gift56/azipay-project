@@ -1,3 +1,6 @@
+import { Button } from "@/components";
+import Link from "next/link";
+
 const HeroSection = () => {
   return (
     <section className="w-full bg-heroImg bg-no-repeat bg-right bg-[length:670px_500px]">
@@ -9,6 +12,14 @@ const HeroSection = () => {
               <span className="text-army">easily</span> in{" "}
               <span className="text-danger">seconds</span>
             </h2>
+            <p className="text-base font-normal text-gray1 md:text-lg tab:text-lg">
+              {`We’ve built an all-inclusive simple solution for individual and
+                businesses to manage staff, pay salaries, bills, and relevant
+                taxes all at once.`}
+            </p>
+            <Link href="/">
+              <Button text="Start Using Free, Forever" className="" />
+            </Link>
           </div>
           <div className="w-full tab:flex-1">
             <img
