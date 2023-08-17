@@ -29,4 +29,16 @@ export const socialLinks = [
     href: "/",
     icon: FaInstagram,
   },
+  {
+    href: "/",
+    icon: FaTwitter,
+  },
+  {
+    href: "/",
+    icon: FaLinkedinIn,
+  },
+  {
+    href: "/",
+    icon: FaFacebookF,
+  },
 ];
