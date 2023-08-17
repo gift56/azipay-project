@@ -45,7 +45,11 @@ const Footer = () => {
                 </h2>
                 <nav className="flex flex-col items-start justify-start gap-5">
                   {item.links.map((item, index: any) => (
-                    <Link key={index} href={item.href}>
+                    <Link
+                      key={index}
+                      href={item.href}
+                      className="text-base font-normal text-[#7C7C7C] hover:text-primary"
+                    >
                       {item.text}
                     </Link>
                   ))}
