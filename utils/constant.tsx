@@ -116,38 +116,48 @@ export const footerLinks = [
 
 export const dashboardSideLink = [
   {
-    img: "/icons/icon1/svg",
+    img: "/icons/icon1.svg",
     text: "Dashboard",
     drop: false,
   },
   {
-    img: "/icons/icon2/svg",
+    img: "/icons/icon2.svg",
     text: "Wallet",
     drop: false,
   },
   {
-    img: "/icons/icon3/svg",
+    img: "/icons/icon3.svg",
     text: "Employee Management",
     drop: true,
   },
   {
-    img: "/icons/icon4/svg",
+    img: "/icons/icon4.svg",
     text: "Payroll",
     drop: true,
   },
   {
-    img: "/icons/icon5/svg",
+    img: "/icons/icon5.svg",
     text: "Compliance",
     drop: true,
   },
   {
-    img: "/icons/icon6/svg",
+    img: "/icons/icon6.svg",
     text: "Quick Loan",
     drop: true,
   },
   {
-    img: "/icons/icon7/svg",
+    img: "/icons/icon7.svg",
     text: "Book Keeping",
+    drop: true,
+  },
+  {
+    img: "/icons/icon8.svg",
+    text: "Support",
+    drop: false,
+  },
+  {
+    img: "/icons/icon9.svg",
+    text: "Settings",
     drop: true,
   },
 ];
