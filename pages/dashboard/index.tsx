@@ -2,6 +2,7 @@ import { Button } from "@/components";
 import DashboardLayout from "@/layouts/DashboardLayout";
 import { useState } from "react";
 import { BiChevronRight } from "react-icons/bi";
+import { AiOutlineEyeInvisible } from "react-icons/ai";
 
 const DashboardPage = () => {
   const [displayBaLance, setDisplayBaLance] = useState(false);
@@ -57,22 +58,31 @@ const DashboardPage = () => {
         </div>
         <div className="w-full flex items-start justify-between gap-6">
           <div className="w-full lg:flex-[2] flex flex-col gap-6 items-start justify-start">
-            <div className="w-[90%] flex items-end justify-between bg-primary bg-cardImg bg-no-repeat bg-[length_150%_120%] bg-[center_top_-2rem] tab:h-[150px] h-fit rounded-2xl text-white p-5">
-              <div className="flex items-start flex-col gap-1 justify-start">
+            <div className="w-full tab:w-[90%] flex flex-col tab:flex-row items-start gap-4 tab:items-end justify-between bg-primary bg-cardImg bg-no-repeat bg-[length_150%_120%] bg-[center_top_-2rem] tab:h-[150px] h-fit rounded-2xl text-white p-5">
+              <div className="flex items-start flex-col gap-1 justify-start w-full tab:w-fit">
                 <h4 className="text-base font-medium text-[#D9EBCD]">
                   Wallet Balance
                 </h4>
-                <div className="flex items-center justify-start gap-2">
+                <div className="flex items-center justify-between w-full tab:w-fit tab:justify-start gap-2">
                   <h5 className="text-xl font-bold md:text-2xl">
-                    {!displayBaLance ? "N12,560,078.00" : "XXXXXXXXXX"}
+                    {!displayBaLance ? "N12,560,078.00" : "XXXXXXXXXXX"}
                   </h5>
 
-                  <img
-                    src="/icons/eyeIcon.svg"
-                    alt=""
-                    className="cursor-pointer"
-                    onClick={() => setDisplayBaLance((prev) => !prev)}
-                  />
+                  {!displayBaLance ? (
+                    <img
+                      src="/icons/eyeIcon.svg"
+                      alt=""
+                      className="cursor-pointer"
+                      onClick={() => setDisplayBaLance((prev) => !prev)}
+                    />
+                  ) : (
+                    <span
+                      className="cursor-pointer"
+                      onClick={() => setDisplayBaLance((prev) => !prev)}
+                    >
+                      <AiOutlineEyeInvisible size={20} />
+                    </span>
+                  )}
                 </div>
               </div>
               <Button
@@ -81,7 +91,7 @@ const DashboardPage = () => {
               />
             </div>
           </div>
-          <div className="w-full lg:flex-[0.5]"></div>
+          <div className="w-full hidden lg:flex lg:flex-[0.5]"></div>
         </div>
       </div>
     </DashboardLayout>
