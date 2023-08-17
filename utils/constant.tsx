@@ -130,4 +130,14 @@ export const dashboardSideLink = [
     text: "Employee Management",
     drop: true,
   },
+  {
+    img: "/icons/icon4/svg",
+    text: "Payroll",
+    drop: true,
+  },
+  {
+    img: "/icons/icon5/svg",
+    text: "Compliance",
+    drop: true,
+  },
 ];
