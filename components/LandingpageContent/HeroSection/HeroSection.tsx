@@ -1,4 +1,4 @@
-import React from "react";
+import { motion } from "framer-motion";
 
 const HeroSection = () => {
   return (
@@ -13,7 +13,13 @@ const HeroSection = () => {
             </h2>
           </div>
           <div className="w-full tab:flex-1">
-            <img src="/imgs/heroImg.png" alt="hero-image" />
+            <motion.img
+              initial={{ opacity: 0, scale: 0 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              viewport={{ once: true }}
+              src="/imgs/heroImg.png"
+              alt="hero-image"
+            />
           </div>
         </div>
       </div>
