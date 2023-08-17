@@ -1,7 +1,10 @@
 import DashboardLayout from "@/layouts/DashboardLayout";
+import { useState } from "react";
 import { BiChevronRight } from "react-icons/bi";
 
 const DashboardPage = () => {
+  const [displayBaLance, setDisplayBaLance] = useState("N12,560,078.00");
+
   return (
     <DashboardLayout>
       <header className="w-full bg-white px-5 tab:px-10 py-3 flex items-center justify-between gap-4 sticky top-0 z-10">
@@ -59,8 +62,13 @@ const DashboardPage = () => {
                   Wallet Balance
                 </h4>
                 <div className="flex items-center justify-start gap-1">
-                  <h5></h5>
-                  <img src="/icons/eyeIcon.svg" alt="" className="cursor-pointer" />
+                  <h5>{displayBaLance}</h5>
+                  <img
+                    src="/icons/eyeIcon.svg"
+                    alt=""
+                    className="cursor-pointer"
+                    onClick={() => setDisplayBaLance("XXXXXXXXXXXX")}
+                  />
                 </div>
               </div>
             </div>
