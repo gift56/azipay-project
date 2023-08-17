@@ -1,10 +1,11 @@
+import { socialLinks } from "@/utils/constant";
 import Link from "next/link";
+import { BsSend } from "react-icons/bs";
 
 const Footer = () => {
   const date = new Date();
   const year = date.getFullYear();
 
-  
   return (
     <footer className="w-full">
       <div className="container">
@@ -21,6 +22,17 @@ const Footer = () => {
               <span>Copyright © {year} Eazipay.</span>
               <span>All rights reserved</span>
             </p>
+            <div className="w-full flex flex-wrap gap-4">
+              {socialLinks.map((item, index: any) => (
+                <Link
+                  href={item.href}
+                  key={index}
+                  className="w-8 h-8 flex items-center justify-center text-gray1 bg-gray-200 rounded-full"
+                >
+                  <item.icon size={20} />
+                </Link>
+              ))}
+            </div>
           </div>
         </div>
       </div>

@@ -1,9 +1,10 @@
-import { navLinks } from "@/utils/constant";
+
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { FaBars } from "react-icons/fa";
 import { MdClose } from "react-icons/md";
 import { Button } from "..";
+import { navLinks } from "@/utils/constant";
 
 const Navbar = () => {
   const [mobileNav, setMobileNav] = useState(false);
