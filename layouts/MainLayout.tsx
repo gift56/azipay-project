@@ -15,6 +15,8 @@ const MainLayout = ({ children }: LayoutProps) => {
           name="description"
           content="We’ve built an all-inclusive simple solution for individual and businesses to manage staff, pay salaries, bills, and relevant taxes all at once."
         />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <link rel="icon" href="imgs/favicon.svg" sizes="1088x468" />
       </Head>
       <Navbar />
       <main className="w-full">{children}</main>
