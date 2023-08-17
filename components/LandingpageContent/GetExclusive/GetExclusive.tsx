@@ -1,7 +1,11 @@
 const GetExclusive = () => {
   return (
     <section className="w-full relative">
-      <img src="/imgs/demoImg.svg" alt="/" className="absoulte top-20 w-[126px] md:w-[187px] aspect-square" />
+      <img
+        src="/imgs/demoImg.svg"
+        alt="/"
+        className="absoulte top-20 w-[126px] md:w-[187px] aspect-square"
+      />
       <div className="container">
         <div className="w-full flex flex-col tab:flex-row tab:justify-between gap-6 tab:items-center items-start justify-start py-12 tab:py-28">
           <div className="w-full tab:flex-1 flex flex-col items-start justify-start gap-8">
@@ -16,7 +20,9 @@ const GetExclusive = () => {
               <br className="hidden tab:block" /> we can help.
             </p>
           </div>
-          <div className="w-full tab:flex-1"></div>
+          <div className="w-full tab:flex-1">
+            <div className="flex flex-col items-center justify-center gap-6 w-full sm:w-[552px]"></div>
+          </div>
         </div>
       </div>
     </section>
