@@ -52,7 +52,7 @@ const HeroSection = () => {
                   <Button
                     text={
                       <div className="flex items-center justify-start gap-5">
-                        <span className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center">
+                        <span className="w-10 h-10 bg-gray-200 rounded-full flex items-center justify-center">
                           <img
                             src="/icons/playstoreIcon.svg"
                             alt="playstore_logo"
