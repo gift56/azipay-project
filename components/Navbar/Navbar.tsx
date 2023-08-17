@@ -29,7 +29,7 @@ const Navbar = () => {
   return (
     <header className="w-full sticky bg-white top-0">
       <div className="tab:container relative">
-        <div className="w-full flex items-center justify-between gap-5 py-4">
+        <div className="w-full flex items-center justify-between gap-5 py-4 px-6 tab:px-0">
           <Link href="/">
             <img src="/imgs/logo.svg" alt="Easypay-logo" />
           </Link>
@@ -76,6 +76,12 @@ const Navbar = () => {
             ref={modalRef}
             className="flex flex-col h-full bg-white gap-5 p-4 w-[250px]"
           >
+            <div className="w-full flex items-center justify-end">
+              <span className="text-dark" onClick={() => setMobileNav(false)}>
+                <MdClose size={25} />
+              </span>
+            </div>
+
             <nav className="flex flex-col items-start justify-start gap-6 w-full">
               {navLinks.map((item, index: any) => (
                 <Link
