@@ -28,7 +28,7 @@ const Navbar = () => {
   }, []);
 
   return (
-    <header className="w-full sticky bg-white top-0">
+    <header className="w-full sticky bg-white top-0 z-30">
       <div className="w-full mx-auto tab:w-[95%] lg:w-[75%] relative">
         <div className="w-full flex items-center justify-between gap-5 py-4 px-6 tab:px-0">
           <Link href="/">
