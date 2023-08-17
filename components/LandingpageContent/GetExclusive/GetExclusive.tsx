@@ -1,4 +1,8 @@
+import { useState } from "react";
+
 const GetExclusive = () => {
+  const [tabs, setTabs] = useState("individual");
+  
   return (
     <section className="w-full relative">
       <img
