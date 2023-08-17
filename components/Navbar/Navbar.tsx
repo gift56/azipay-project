@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <header className="w-full sticky bg-white top-0">
-      <div className="container relative">
+      <div className="tab:container relative">
         <div className="w-full flex items-center justify-between gap-5 py-4">
           <Link href="/">
             <img src="/imgs/logo.svg" alt="Easypay-logo" />
@@ -69,10 +69,13 @@ const Navbar = () => {
         {/* MOBILE NAV */}
         <div
           className={`${
-            mobileNav ? "left-0" : "-left-full"
+            mobileNav ? "left-0" : "-left-[180%]"
           } tab:hidden flex flex-col h-screen bg-black/40 gap-7 absolute top-0 w-full z-40 transition-all duration-300 `}
         >
-          
+          <div
+            ref={modalRef}
+            className="flex flex-col h-full bg-white gap-7 p-4 w-[250px]"
+          ></div>
         </div>
       </div>
     </header>
