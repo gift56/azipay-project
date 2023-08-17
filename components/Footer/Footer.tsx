@@ -34,6 +34,9 @@ const Footer = () => {
               ))}
             </div>
           </div>
+          <div className="w-full flex flex-col items-start gap-4">
+            
+          </div>
         </div>
       </div>
     </footer>

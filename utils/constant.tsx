@@ -42,3 +42,74 @@ export const socialLinks = [
     icon: FaFacebookF,
   },
 ];
+
+export const footerLinks = [
+  {
+    headingTitle: "Product",
+    links: [
+      {
+        href: "/",
+        text: "Indidual",
+      },
+      {
+        href: "/",
+        text: "Businesses",
+      },
+      {
+        href: "/",
+        text: "Request Demo",
+      },
+      {
+        href: "/",
+        text: "Pricing",
+      },
+    ],
+  },
+  {
+    headingTitle: "Legal",
+    links: [
+      {
+        href: "/",
+        text: "Privacy Policy",
+      },
+      {
+        href: "/",
+        text: "Terms of Service",
+      },
+    ],
+  },
+  {
+    headingTitle: "Resources",
+    links: [
+      {
+        href: "/",
+        text: "FAQs",
+      },
+      {
+        href: "/",
+        text: "Blog",
+      },
+      {
+        href: "/",
+        text: "Career",
+      },
+      {
+        href: "/",
+        text: "Customer Stories",
+      },
+    ],
+  },
+  {
+    headingTitle: "Contact us",
+    links: [
+      {
+        href: "/",
+        text: "eazipay@gmail.com",
+      },
+      {
+        href: "/",
+        text: "+234 816 878 9518",
+      },
+    ],
+  },
+];
