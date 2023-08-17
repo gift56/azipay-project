@@ -58,6 +58,12 @@ const Navbar = () => {
               />
             </Link>
           </div>
+          <span
+            onClick={() => setMobileNav(true)}
+            className="text-dark tab:hidden"
+          >
+            {mobileNav === false && <FaBars size={25} />}
+          </span>
         </div>
       </div>
     </header>
