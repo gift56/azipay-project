@@ -117,5 +117,17 @@ export const footerLinks = [
 export const dashboardSideLink = [
   {
     img: "/icons/icon1/svg",
+    text: "Dashboard",
+    drop: false,
+  },
+  {
+    img: "/icons/icon2/svg",
+    text: "Wallet",
+    drop: false,
+  },
+  {
+    img: "/icons/icon3/svg",
+    text: "Employee Management",
+    drop: true,
   },
 ];
