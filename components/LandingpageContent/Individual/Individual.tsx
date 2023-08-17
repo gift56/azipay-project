@@ -18,7 +18,7 @@ const Individual = () => {
               <h2 className="text-lg font-bold sm:text-xl tab:text-2xl">
                 Tamper-proof Payroll for LIfe
               </h2>
-              <p className="flex flex-col items-start justify-start gap-3 text-base font-normal">
+              <p className="flex flex-col items-start justify-start gap-3 text-base font-normal md:text-lg">
                 <span>
                   Your staff payroll history is kept in one place forever.
                 </span>
