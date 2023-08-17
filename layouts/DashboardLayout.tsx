@@ -21,6 +21,12 @@ const DashboardLayout = ({ children }: LayoutProps) => {
           rel="stylesheet"
         />
       </Head>
+
+      <main className="w-full flex items-start justify-start h-screen overflow-auto lg:overflow-hidden">
+        <div className="lg:flex-[0.5]">
+          <DashboardSidebar />
+        </div>
+      </main>
     </>
   );
 };
