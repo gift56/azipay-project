@@ -9,7 +9,7 @@ const Individual = () => {
             <h2 className="font-play font-bold text-2xl text-center md:text-4xl text-primary">
               For Individuals and Businesses
             </h2>
-            <p className="text-base font-normal text-dark">
+            <p className="text-base font-normal text-dark text-center">
               Join 200+ businesses using Eazipay's easy solution.
             </p>
           </div>
@@ -57,6 +57,15 @@ const Individual = () => {
               </p>
             </div>
           </div>
+          <p className="text-base font-normal text-center text-gray1">
+            <span>
+              We are happy to answer your queries. Please, reach us at
+            </span>
+            <span className="block">
+              <span className="text-danger">hello@myeazipay.com</span> and
+              expect our response shortly after.
+            </span>
+          </p>
         </div>
       </div>
     </section>
