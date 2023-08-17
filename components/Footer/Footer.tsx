@@ -1,6 +1,8 @@
 import Link from "next/link";
 
 const Footer = () => {
+  const date = new Date();
+  const year = date.getFullYear();
   return (
     <footer className="w-full">
       <div className="container">
@@ -13,6 +15,10 @@ const Footer = () => {
                 className="w-[122px]"
               />
             </Link>
+            <p className="flex flex-col items-start justify-start w-full text-gray1 text-sm font-normal">
+              <span>Copyright © {year} Eazipay.</span>
+              <span>All rights reserved</span>
+            </p>
           </div>
         </div>
       </div>
