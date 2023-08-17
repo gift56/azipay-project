@@ -56,12 +56,12 @@ const DashboardPage = () => {
         </div>
         <div className="w-full flex items-start justify-between gap-6">
           <div className="w-full lg:flex-[2] flex flex-col gap-6 items-start justify-start">
-            <div className="w-full flex items-end justify-between bg-primary tab:h-[150px] h-fit rounded-2xl text-white p-5">
+            <div className="w-[90%] flex items-end justify-between bg-primary bg-cardImg bg-no-repeat bg-[length_150%_120%] bg-[center_top_-2rem] tab:h-[150px] h-fit rounded-2xl text-white p-5">
               <div className="flex items-start flex-col gap-1 justify-start">
                 <h4 className="text-base font-medium text-[#D9EBCD]">
                   Wallet Balance
                 </h4>
-                <div className="flex items-center justify-start gap-1">
+                <div className="flex items-center justify-start gap-2">
                   <h5 className="text-xl font-bold md:text-2xl">
                     {!displayBaLance ? "N12,560,078.00" : "XXXXXXXXXX"}
                   </h5>
@@ -74,6 +74,7 @@ const DashboardPage = () => {
                   />
                 </div>
               </div>
+
             </div>
           </div>
           <div className="w-full lg:flex-[0.5]"></div>
