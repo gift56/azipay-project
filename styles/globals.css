@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply font-samp;
+}
+
 .container {
   @apply w-[90%] mx-auto tab:w-[75%];
 }
