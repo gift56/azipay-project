@@ -167,7 +167,7 @@ const DashboardPage = () => {
                 className="h-full bg-[#D9EBCD] !px-10"
               />
             </div>
-            <div className="flex items-center justify-center w-fit gap-5 bg-white text-sm font-medium border border-[#D9EBCD] h-12 px-4 rounded-2xl text-[#8D8E8D]">
+            <div className="flex items-center justify-center w-fit gap-5 bg-white text-sm font-medium border border-[#D9EBCD] h-12 px-4 rounded-2xl text-[#8D8E8D] cursor-pointer">
               <img src="/icons/filterIcon.svg" alt="/" />
               <span>Filter</span>
             </div>
