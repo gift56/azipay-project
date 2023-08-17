@@ -9,8 +9,9 @@ const DashboardSidebar = () => {
       currentPath === pathname || currentPath.startsWith(pathname + "/detail")
     );
   };
+
   return (
-    <nav className="hidden lg:flex w-full bg-white h-screen overflow-y-auto">
+    <nav className="hidden lg:flex flex-col gap-10 items-start justify-start w-full bg-white h-screen overflow-y-auto">
       DashboardSidebar
     </nav>
   );
