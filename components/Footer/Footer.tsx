@@ -35,7 +35,7 @@ const Footer = () => {
             </div>
           </div>
 
-          <div className="grid grid-cols-2 tab:grid-cols-3 xl:grid-cols-4 w-full tab:flex-[2] gap-6">
+          <div className="grid grid-cols-2 tab:grid-cols-3 xl:grid-cols-4 w-full tab:flex-[2] gap-6 relative">
             {footerLinks.map((item, index: any) => (
               <div
                 className="w-full flex flex-col items-start gap-4"
@@ -54,16 +54,16 @@ const Footer = () => {
                       {item.text}
                     </Link>
                   ))}
-                  <div
-                    className={`${
-                      item.headingTitle === "Contact us" ? "flex" : "hidden"
-                    } w-full bg-[#F2F1F1]`}
-                  >
-                    fdnevkj nks
-                  </div>
                 </nav>
               </div>
             ))}
+            <div className="w-[255px] h-10 px-4 bg-[#F2F1F1] flex items-center justify-between gap-4">
+              <input
+                type="text"
+                className="w-full h-full outline-none border-none text-sm font-normal bg-transparent placeholder:text-gray1 text-gray1 font-samp rounded-2xl"
+                placeholder="Your email address"
+              />
+            </div>
           </div>
         </div>
       </div>
