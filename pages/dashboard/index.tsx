@@ -149,7 +149,9 @@ const DashboardPage = () => {
             </div>
           </div>
         </div>
+
         <DashboardChart />
+        
         <div className="w-full hidden tab:flex flex-col items-start justify-start gap-4">
           <h2 className="text-2xl font-medium text-dark">Recent Activities</h2>
           <div className="flex items-center justify-between w-full gap-6">
