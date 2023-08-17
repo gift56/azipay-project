@@ -47,7 +47,25 @@ const DashboardPage = () => {
           <h2 className="text-xl font-bold text-dark md:text-2xl tab:text-3xl">
             Welcome Abasiama
           </h2>
-          <p className="text-base font-medium text-gray1">Pay and manage your employee in minutes</p>
+          <p className="text-base font-medium text-gray1">
+            Pay and manage your employee in minutes
+          </p>
+        </div>
+        <div className="w-full flex items-start justify-between gap-6">
+          <div className="w-full lg:flex-[2] flex flex-col gap-6 items-start justify-start">
+            <div className="w-full flex items-end justify-between bg-primary tab:h-[150px] h-fit rounded-2xl text-white p-5">
+              <div className="flex items-start flex-col gap-1 justify-start">
+                <h4 className="text-base font-medium text-[#D9EBCD]">
+                  Wallet Balance
+                </h4>
+                <div className="flex items-center justify-start gap-1">
+                  <h5></h5>
+                  <img src="/icons/eyeIcon.svg" alt="" className="cursor-pointer" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="w-full lg:flex-[0.5]"></div>
         </div>
       </div>
     </DashboardLayout>
