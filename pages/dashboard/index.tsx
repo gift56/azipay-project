@@ -19,7 +19,7 @@ const DashboardPage = () => {
           alt="/"
           className="hidden tab:flex w-[110px] h-[58px] object-contain"
         />
-        <div className="flex flex-row-reverse tab:flex-row items-center justify-end gap-10">
+        <div className="flex flex-row-reverse tab:flex-row items-center justify-between w-full tab:w-fit tab:justify-end gap-10">
           <div className="relative">
             <img
               src="/icons/bell.svg"
