@@ -18,9 +18,10 @@ const DashboardSidebar = () => {
       <div className="w-full flex flex-col items-start justify-start sticky z-[1] top-[-15px] h-[4vh] bg-primary">
         <div className="w-full">
           <img
+            onClick={() => router.push("/")}
             src="/imgs/dashboardLogo.png"
             alt="easypay_logo"
-            className="w-full h-auto object-cover"
+            className="w-full h-auto object-cover cursor-pointer"
           />
         </div>
       </div>
