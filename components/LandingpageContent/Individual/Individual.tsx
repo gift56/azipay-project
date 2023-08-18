@@ -1,17 +1,29 @@
-import React from "react";
+import { motion } from "framer-motion";
 
 const Individual = () => {
   return (
     <section className="w-full py-20 bg-[#F0F7EB]">
       <div className="container">
         <div className="w-full flex flex-col items-center justify-center gap-8">
-          <div className="w-full flex flex-col items-center justify-center">
-            <h2 className="font-play font-bold text-2xl text-center md:text-4xl text-primary">
+          <div className="w-full flex flex-col items-center justify-center gap-2">
+            <motion.h2
+              initial={{ opacity: 0, y: "-30px" }}
+              whileInView={{ opacity: 1, y: "0px" }}
+              transition={{ type: "spring", duration: 2 }}
+              viewport={{ once: true }}
+              className="font-play font-bold text-2xl text-center md:text-4xl text-primary"
+            >
               For Individuals and Businesses
-            </h2>
-            <p className="text-base font-normal text-dark text-center">
+            </motion.h2>
+            <motion.p
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ type: "spring", duration: 2 }}
+              viewport={{ once: true }}
+              className="text-base font-normal text-dark text-center"
+            >
               Join 200+ businesses using Eazipay's easy solution.
-            </p>
+            </motion.p>
           </div>
           <div className="relative w-full flex items-center justify-center flex-col gap-6 tab:gap-0">
             <div className="w-full tab:w-[480px] tab:h-[280px] p-6 bg-primary text-white rounded-2xl flex flex-col items-start justify-start gap-6 tab:absolute tab:left-6">
