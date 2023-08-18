@@ -19,26 +19,56 @@ const GetExclusive = () => {
       <div className="container">
         <div className="w-full flex flex-col tab:flex-row tab:justify-between gap-6 tab:items-center items-start justify-start pb-12">
           <div className="w-full tab:flex-1 flex flex-col items-start justify-start gap-8">
-            <h2 className="text-3xl font-bold text-primary md:text-4xl tab:text-[56px] tab:leading-[64px] font-play">
+            <motion.h2
+              initial={{ opacity: 0, y: "-30px" }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ type: "spring", duration: 2 }}
+              viewport={{ once: true }}
+              className="text-3xl font-bold text-primary md:text-4xl tab:text-[56px] tab:leading-[64px] font-play"
+            >
               Get an Exclusive <br className="hidden tab:block" /> Demo of
               Eazipay
-            </h2>
-            <p className="text-base font-normal text-gray1 md:text-lg tab:text-lg">
+            </motion.h2>
+            <motion.p
+              initial={{ opacity: 0, y: "30px" }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ type: "spring", duration: 2 }}
+              viewport={{ once: true }}
+              className="text-base font-normal text-gray1 md:text-lg tab:text-lg"
+            >
               Our greatest priority is to put you and{" "}
               <br className="hidden tab:block" /> your business first. Let’s
               show you how
               <br className="hidden tab:block" /> we can help.
-            </p>
+            </motion.p>
           </div>
           <div className="w-full tab:flex-1">
-            <div className="flex flex-col items-center justify-center gap-6 w-full sm:w-[502px] p-5 shadow-contactShad bg-white border border-[#E7E8E7] rounded-3xl">
-              <h2 className="text-xl font-bold text-dark md:text-2xl">
+            <motion.div
+              initial={{ opacity: 0, scale: 0.5 }}
+              whileInView={{ opacity: 1, scale: 1 }}
+              transition={{ type: "spring", duration: 2 }}
+              viewport={{ once: true }}
+              className="flex flex-col items-center justify-center gap-6 w-full sm:w-[502px] p-5 shadow-contactShad bg-white border border-[#E7E8E7] rounded-3xl overflow-hidden"
+            >
+              <motion.h2
+                initial={{ opacity: 0, y: "-30px" }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ type: "spring", duration: 2 }}
+                viewport={{ once: true }}
+                className="text-xl font-bold text-dark md:text-2xl"
+              >
                 First things first
-              </h2>
-              <p className="w-full text-center text-base font-normal text-[#444444] md:text-lg">
+              </motion.h2>
+              <motion.p
+                initial={{ opacity: 0, y: "30px" }}
+                whileInView={{ opacity: 1, y: 0 }}
+                transition={{ type: "spring", duration: 2 }}
+                viewport={{ once: true }}
+                className="w-full text-center text-base font-normal text-[#444444] md:text-lg"
+              >
                 We want to serve you better. Tell us a bit{" "}
                 <br className="hidden tab:block" /> about yourself or company
-              </p>
+              </motion.p>
               <div className="w-full flex items-center justify-between gap-4 border border-[#E7E8E7] bg-white p-2 rounded-2xl">
                 <h4
                   onClick={() => setTabs("individual")}
@@ -98,7 +128,7 @@ const GetExclusive = () => {
                   className="w-full bg-primary border-primary rounded-3xl text-white"
                 />
               </div>
-            </div>
+            </motion.div>
           </div>
         </div>
       </div>
