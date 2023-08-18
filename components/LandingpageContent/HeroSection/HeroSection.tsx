@@ -13,7 +13,7 @@ const HeroSection = () => {
               <span className="text-army">easily</span> in{" "}
               <span className="text-danger">seconds</span>
             </h2>
-            <p className="text-base font-normal text-gray1 md:text-lg tab:text-lg">
+            <p className="text-base font-normal text-gray1 md:text-lg tab:text-xl">
               {`We’ve built an all-inclusive simple solution for individual and
                 businesses to manage staff, pay salaries, bills, and relevant
                 taxes all at once.`}
