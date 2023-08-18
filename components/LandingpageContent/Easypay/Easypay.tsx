@@ -15,13 +15,23 @@ const Easypay = () => {
             >
               How Eazipay Works
             </motion.h2>
-            <p className="text-base font-normal text-dark text-center">
+            <motion.p
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              transition={{ type: "spring", duration: 2 }}
+              viewport={{ once: true }}
+              className="text-base font-normal text-dark text-center"
+            >
               Get started in 3 simple steps.
-            </p>
+            </motion.p>
           </div>
           <div className="w-full flex flex-col items-center justify-center tab:flex-row tab:justify-between gap-6">
             <div className="w-full tab:flex-1">
-              <img
+              <motion.img
+                initial={{ opacity: 0, scale: 0.5 }}
+                whileInView={{ opacity: 1, scale: 1 }}
+                transition={{ type: "spring", duration: 2 }}
+                viewport={{ once: true }}
                 src="/imgs/howImg.png"
                 alt="how-images"
                 className="w-[447px]"
