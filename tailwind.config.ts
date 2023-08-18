@@ -23,6 +23,7 @@ const config: Config = {
       screens: {
         tab: "920px",
         monitor: "1600px",
+        phone: "365px",
       },
       backgroundImage: {
         heroImg: "url('/imgs/heroImg.png')",

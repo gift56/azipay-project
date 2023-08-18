@@ -153,23 +153,22 @@ const DashboardPage = () => {
 
         <div className="w-full flex flex-col tab:hidden items-start justify-start gap-5">
           <h3 className="text-base font-medium text-gray1">Quick Stats</h3>
-          <div className="flex w-full flex-col items-start justify-start gap-5">
+          <div className="grid grid-cols-2 w-full items-start justify-start gap-3">
             <div className="p-4 flex flex-col items-start justify-start gap-2 bg-[#F2F1F1] rounded-2xl w-full">
-              <h4 className="text-base font-normal text-gray1">
-                Total Payroll
-              </h4>
-              <h2 className="text-base font-bold text-gray1">
+              <h4 className="text-sm font-normal text-gray1">Total Payroll</h4>
+              <h2 className="text-xs phone:text-sm font-bold text-gray1 w-full">
                 2,293,044,345.05
               </h2>
             </div>
             <div className="p-4 flex flex-col items-start justify-start gap-2 bg-[#F2F1F1] rounded-2xl w-full">
-              <h4 className="text-base font-normal text-gray1">
-                Total Employee
-              </h4>
-              <h2 className="text-base font-bold text-gray1">10,000</h2>
+              <h4 className="text-sm font-normal text-gray1">Total Employee</h4>
+              <h2 className="text-xs phone:text-sm font-bold text-gray1">
+                10,000
+              </h2>
             </div>
           </div>
         </div>
+
         <div className="w-full flex flex-col tab:hidden items-start justify-start gap-5">
           <h3 className="text-base font-medium text-gray1">Quick Actions</h3>
           <div className="border border-[#E7E8E7] w-full p-3 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 items-start justify-start">
