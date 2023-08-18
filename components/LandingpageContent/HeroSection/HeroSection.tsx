@@ -5,6 +5,9 @@ const HeroSection = () => {
   return (
     <section className="w-full tab:bg-heroImg bg-no-repeat bg-[length:750px_500px] bg-[top_right_-7rem] relative">
       <div className="container">
+        <div className="w-[228px] h-[231px] hidden tab:flex bg-gradient-to-r from-red-500 to-blue-500 rounded-full absolute -z-10 -left-10 -top-20 blur-[123px]"></div>
+        <div className="w-[228px] h-[231px] bg-gradient-to-r from-red-500 to-blue-500 rounded-full absolute -z-10 -left-10 -bottom-20 blur-[123px]"></div>
+        <div className="w-[228px] h-[231px] hidden tab:flex bg-gradient-to-r from-red-500 to-blue-500 rounded-full absolute -z-10 right-10 -top-20 blur-[163px]"></div>
         <div className="w-full flex items-center justify-between py-10 flex-col tab:flex-row gap-8">
           <div className="w-full tab:flex-1 flex flex-col items-start justify-start gap-8">
             <h2 className="text-3xl font-bold text-dark md:text-4xl tab:text-6xl font-play">
