@@ -35,7 +35,7 @@ const DashboardSidebar = () => {
               activePath(item.href)
                 ? "border-l-2 border-l-primary bg-[#f0f7eb80] text-primary"
                 : "text-dark"
-            } border-b w-full flex items-center justify-between gap-5 px-3 py-3 hover:border-l-2 hover:border-l-primary hover:bg-[#f0f7eb80] hover:text-primary`}
+            } border-b w-full flex items-center justify-between gap-5 px-3 py-3 hover:border-l-2 hover:border-l-primary hover:bg-[#f0f7eb80] hover:text-primary transition-all`}
           >
             <div className="flex items-center justify-start gap-3">
               <img src={item.img} alt="/" className="w-5 aspect-square" />
