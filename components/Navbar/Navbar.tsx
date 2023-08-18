@@ -1,4 +1,3 @@
-
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { FaBars } from "react-icons/fa";
@@ -88,6 +87,7 @@ const Navbar = () => {
                 <Link
                   href={item.href}
                   key={index}
+                  onClick={() => setMobileNav(false)}
                   className="text-base font-medium text-gray1 hover:text-primary transition-all w-full"
                 >
                   {item.text}
@@ -95,13 +95,13 @@ const Navbar = () => {
               ))}
             </nav>
             <div className="flex flex-col items-start gap-5 w-full">
-              <Link href="/">
+              <Link href="/dashboard" onClick={() => setMobileNav(false)}>
                 <Button
                   text="Log in"
                   className="text-primary border-primary w-[168px] rounded-[24px]"
                 />
               </Link>
-              <Link href="/">
+              <Link href="/dashboard" onClick={() => setMobileNav(false)}>
                 <Button
                   text="Register"
                   className="text-white border-primary bg-primary w-[168px] rounded-[24px]"
