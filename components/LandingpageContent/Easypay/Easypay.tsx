@@ -1,4 +1,4 @@
-import React from "react";
+import { motion } from "framer-motion";
 
 const Easypay = () => {
   return (
@@ -6,9 +6,15 @@ const Easypay = () => {
       <div className="container">
         <div className="flex flex-col gap-10 items-center justify-center w-full">
           <div className="w-full flex flex-col items-center justify-center gap-2">
-            <h2 className="font-play font-bold text-2xl text-center md:text-4xl text-primary">
+            <motion.h2
+              initial={{ opacity: 0, y: "-30px" }}
+              whileInView={{ opacity: 1, y: "0px" }}
+              transition={{ type: "spring", duration: 2 }}
+              viewport={{ once: true }}
+              className="font-play font-bold text-2xl text-center md:text-4xl text-primary"
+            >
               How Eazipay Works
-            </h2>
+            </motion.h2>
             <p className="text-base font-normal text-dark text-center">
               Get started in 3 simple steps.
             </p>
