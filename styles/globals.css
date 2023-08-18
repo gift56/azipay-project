@@ -8,7 +8,7 @@ body {
 }
 
 .container {
-  @apply w-[90%] mx-auto tab:w-[75%];
+  @apply w-[90%] mx-auto lg:w-[80%];
 }
 
 img {
