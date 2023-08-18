@@ -30,8 +30,8 @@ const Easypay = () => {
               <motion.img
                 initial={{ opacity: 0, scale: 0.5 }}
                 whileInView={{ opacity: 1, scale: 1 }}
-                transition={{ type: "spring", duration: 2 }}
                 viewport={{ once: true }}
+                transition={{ type: "spring", duration: 2 }}
                 src="/imgs/howImg.png"
                 alt="how-images"
                 className="w-[447px]"
@@ -40,7 +40,8 @@ const Easypay = () => {
             <div className="w-full tab:flex-1 flex flex-col relative gap-12 items-center">
               <motion.img
                 initial={{ opacity: 0, x: -100 }}
-                animate={{ opacity: 1, x: 0 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.2 }}
                 src="/imgs/step1.svg"
                 alt="/"
@@ -48,7 +49,8 @@ const Easypay = () => {
               />
               <motion.div
                 initial={{ opacity: 0, x: 100 }}
-                animate={{ opacity: 1, x: 0 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="flex flex-col items-start justify-start gap-4"
               >
@@ -66,7 +68,8 @@ const Easypay = () => {
               </motion.div>
               <motion.div
                 initial={{ opacity: 0, x: -100 }}
-                animate={{ opacity: 1, x: 0 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.2 }}
                 className="flex flex-col items-start justify-start gap-4"
               >
@@ -84,7 +87,8 @@ const Easypay = () => {
               </motion.div>
               <motion.img
                 initial={{ opacity: 0, x: 100 }}
-                animate={{ opacity: 1, x: 0 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.4 }}
                 src="/imgs/step2.svg"
                 alt="/"
@@ -92,7 +96,8 @@ const Easypay = () => {
               />
               <motion.div
                 initial={{ opacity: 0, x: 100 }}
-                animate={{ opacity: 1, x: 0 }}
+                whileInView={{ opacity: 1, x: 0 }}
+                viewport={{ once: true }}
                 transition={{ duration: 0.6, delay: 0.6 }}
                 className="flex flex-col items-start justify-start gap-4"
               >

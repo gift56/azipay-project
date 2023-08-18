@@ -28,7 +28,8 @@ const Individual = () => {
           <div className="relative w-full flex items-center justify-center flex-col gap-6 tab:gap-0 overflow-hidden">
             <motion.div
               initial={{ opacity: 0, x: 100 }}
-              animate={{ opacity: 1, x: 0 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
               transition={{ duration: 0.6, delay: 0.2 }}
               className="w-full tab:w-[480px] tab:h-[280px] p-6 bg-primary text-white rounded-2xl flex flex-col items-start justify-start gap-6 tab:absolute tab:left-6"
             >
@@ -45,7 +46,8 @@ const Individual = () => {
             </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 100 }}
-              animate={{ opacity: 1, x: 0 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
               transition={{ duration: 0.9, delay: 0.4 }}
               className="w-full tab:w-[540px] tab:h-[280px] p-6 bg-primary shadow-cardShad text-white rounded-2xl flex flex-col items-start justify-start gap-6 tab:relative tab:z-20"
             >
@@ -66,7 +68,8 @@ const Individual = () => {
             </motion.div>
             <motion.div
               initial={{ opacity: 0, x: 100 }}
-              animate={{ opacity: 1, x: 0 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
               transition={{ duration: 0.92, delay: 0.6 }}
               className="w-full tab:w-[540px] tab:h-[280px] p-6 bg-primary shadow-cardShad text-white rounded-2xl flex flex-col items-start justify-start gap-6 tab:absolute tab:right-0 tab:z-30"
             >
