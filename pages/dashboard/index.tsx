@@ -3,9 +3,10 @@ import DashboardLayout from "@/layouts/DashboardLayout";
 import { useState } from "react";
 import { BiChevronRight } from "react-icons/bi";
 import { AiOutlineEyeInvisible } from "react-icons/ai";
-import { cardData } from "@/utils/constant";
+import { cardData, quickAction } from "@/utils/constant";
 import { MdOutlineCalendarMonth } from "react-icons/md";
 import { FiSearch } from "react-icons/fi";
+import Link from "next/link";
 
 const DashboardPage = () => {
   const [displayBaLance, setDisplayBaLance] = useState(false);
@@ -167,6 +168,27 @@ const DashboardPage = () => {
               </h4>
               <h2 className="text-base font-bold text-gray1">10,000</h2>
             </div>
+          </div>
+        </div>
+        <div className="w-full flex flex-col tab:hidden items-start justify-start gap-5">
+          <h3 className="text-base font-medium text-gray1">Quick Actions</h3>
+          <div className="border border-[#E7E8E7] w-full p-3 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 items-start justify-start">
+            {quickAction.map((item, index: any) => (
+              <Link
+                href={item.href}
+                key={index}
+                className="flex w-full flex-col items-center justify-center gap-2"
+              >
+                <img
+                  src={item.img}
+                  alt={`${item.text}-icon`}
+                  className="w-[60px] aspect-square"
+                />
+                <span className="text-sm text-center font-medium text-gray1">
+                  {item.text}
+                </span>
+              </Link>
+            ))}
           </div>
         </div>
 

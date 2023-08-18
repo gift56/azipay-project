@@ -194,37 +194,46 @@ export const quickAction = [
   {
     img: "/icons/dash2.svg",
     text: "Pay Salaries",
+    href: "/",
   },
   {
     img: "/icons/dash1.svg",
     text: "Add Employee",
+    href: "/",
   },
   {
     img: "/icons/dash5.svg",
     text: "Send Payslips",
+    href: "/",
   },
   {
     img: "/icons/dash6.svg",
     text: "Edit Salaries",
+    href: "/",
   },
   {
     img: "/icons/dash4.svg",
     text: "Get a Loan",
+    href: "/",
   },
   {
     img: "/icons/dash7.svg",
     text: "Make a Transfer",
+    href: "/",
   },
   {
     img: "/icons/dash8.svg",
     text: "Airtime",
+    href: "/",
   },
   {
     img: "/icons/dash9.svg",
     text: "Data",
+    href: "/",
   },
   {
     img: "/icons/dash10.svg",
     text: "Electricity",
+    href: "/",
   },
 ];
