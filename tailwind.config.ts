@@ -27,7 +27,6 @@ const config: Config = {
       backgroundImage: {
         heroImg: "url('/imgs/heroImg.png')",
         circleImg: "url('/imgs/circle.png')",
-        waveImg: "url('/imgs/wave.png')",
         cardImg: "url('/imgs/cardbg.png')",
         radiantBg:
           "radial-gradient(50% 50.00% at 50% 50.00%, rgba(217, 235, 205, 0.14) 0%, rgba(217, 235, 205, 0.03) 100%), #11453B",
