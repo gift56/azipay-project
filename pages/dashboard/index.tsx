@@ -70,7 +70,7 @@ const DashboardPage = () => {
                 </h4>
                 <div className="flex items-center justify-between w-full tab:w-fit tab:justify-start gap-2">
                   <h5 className="text-xl font-bold md:text-2xl">
-                    {!displayBaLance ? "N12,560,078.00" : "XXXXXXXXXXX"}
+                    {!displayBaLance ? "N12,560,078.00" : "************"}
                   </h5>
 
                   {!displayBaLance ? (
