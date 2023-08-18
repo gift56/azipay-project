@@ -171,7 +171,7 @@ const DashboardPage = () => {
 
         <div className="w-full flex flex-col tab:hidden items-start justify-start gap-5">
           <h3 className="text-base font-medium text-gray1">Quick Actions</h3>
-          <div className="border border-[#E7E8E7] w-full p-3 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-3 items-start justify-start">
+          <div className="border border-[#E7E8E7] w-full p-3 grid grid-cols-2 phone:grid-cols-3 md:grid-cols-4 gap-3 items-start justify-start">
             {quickAction.map((item, index: any) => (
               <Link
                 href={item.href}
