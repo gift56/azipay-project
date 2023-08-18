@@ -25,8 +25,13 @@ const Individual = () => {
               Join 200+ businesses using Eazipay's easy solution.
             </motion.p>
           </div>
-          <div className="relative w-full flex items-center justify-center flex-col gap-6 tab:gap-0">
-            <div className="w-full tab:w-[480px] tab:h-[280px] p-6 bg-primary text-white rounded-2xl flex flex-col items-start justify-start gap-6 tab:absolute tab:left-6">
+          <div className="relative w-full flex items-center justify-center flex-col gap-6 tab:gap-0 overflow-hidden">
+            <motion.div
+              initial={{ opacity: 0, x: 100 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.6, delay: 0.2 }}
+              className="w-full tab:w-[480px] tab:h-[280px] p-6 bg-primary text-white rounded-2xl flex flex-col items-start justify-start gap-6 tab:absolute tab:left-6"
+            >
               <h2 className="text-lg font-bold sm:text-xl tab:text-2xl">
                 Tamper-proof Payroll for LIfe
               </h2>
@@ -37,8 +42,13 @@ const Individual = () => {
                 <span>No more excel sheet or manual records.</span>
                 <span>Download your payroll history anytime you need it.</span>
               </p>
-            </div>
-            <div className="w-full tab:w-[540px] tab:h-[280px] p-6 bg-primary shadow-cardShad text-white rounded-2xl flex flex-col items-start justify-start gap-6 tab:relative tab:z-20">
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, x: 100 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.9, delay: 0.4 }}
+              className="w-full tab:w-[540px] tab:h-[280px] p-6 bg-primary shadow-cardShad text-white rounded-2xl flex flex-col items-start justify-start gap-6 tab:relative tab:z-20"
+            >
               <h2 className="text-lg font-bold sm:text-xl tab:text-2xl">
                 All Payroll, Anytime Anywhere
               </h2>
@@ -53,8 +63,13 @@ const Individual = () => {
                   in seconds!
                 </span>
               </p>
-            </div>
-            <div className="w-full tab:w-[540px] tab:h-[280px] p-6 bg-primary shadow-cardShad text-white rounded-2xl flex flex-col items-start justify-start gap-6 tab:absolute tab:right-0 tab:z-30">
+            </motion.div>
+            <motion.div
+              initial={{ opacity: 0, x: 100 }}
+              animate={{ opacity: 1, x: 0 }}
+              transition={{ duration: 0.92, delay: 0.6 }}
+              className="w-full tab:w-[540px] tab:h-[280px] p-6 bg-primary shadow-cardShad text-white rounded-2xl flex flex-col items-start justify-start gap-6 tab:absolute tab:right-0 tab:z-30"
+            >
               <h2 className="text-lg font-bold sm:text-xl tab:text-2xl">
                 Payroll in Seconds
               </h2>
@@ -67,9 +82,16 @@ const Individual = () => {
                 </span>
                 <span>Payment is done permanently.</span>
               </p>
-            </div>
+            </motion.div>
           </div>
-          <p className="text-base font-normal text-center text-gray1">
+
+          <motion.p
+            initial={{ opacity: 0, y: "30px" }}
+            whileInView={{ opacity: 1, y: "0px" }}
+            transition={{ type: "spring", duration: 3 }}
+            viewport={{ once: true }}
+            className="text-base font-normal text-center text-gray1 tab:text-lg"
+          >
             <span>
               We are happy to answer your queries. Please, reach us at
             </span>
@@ -77,7 +99,7 @@ const Individual = () => {
               <span className="text-danger">hello@myeazipay.com</span> and
               expect our response shortly after.
             </span>
-          </p>
+          </motion.p>
         </div>
       </div>
     </section>
