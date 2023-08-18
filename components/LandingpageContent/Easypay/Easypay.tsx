@@ -25,7 +25,7 @@ const Easypay = () => {
               Get started in 3 simple steps.
             </motion.p>
           </div>
-          <div className="w-full flex flex-col items-center justify-center tab:flex-row tab:justify-between gap-6">
+          <div className="w-full flex flex-col items-center justify-center tab:flex-row tab:justify-between gap-6 overflow-hidden">
             <div className="w-full tab:flex-1">
               <motion.img
                 initial={{ opacity: 0, scale: 0.5 }}
@@ -38,12 +38,20 @@ const Easypay = () => {
               />
             </div>
             <div className="w-full tab:flex-1 flex flex-col relative gap-12 items-center">
-              <img
+              <motion.img
+                initial={{ opacity: 0, x: -100 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.6, delay: 0.2 }}
                 src="/imgs/step1.svg"
                 alt="/"
                 className="absolute -left-20 xl:-left-10 top-5 w-[170px] xl:w-[180px] aspect-square hidden lg:flex"
               />
-              <div className="flex flex-col items-start justify-start gap-4">
+              <motion.div
+                initial={{ opacity: 0, x: 100 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+                className="flex flex-col items-start justify-start gap-4"
+              >
                 <span className="md:w-14 md:h-14 w-12 h-12 flex items-center justify-center bg-primary text-white rounded-2xl text-xl font-bold md:text-2xl shadow-cardShad">
                   1
                 </span>
@@ -55,8 +63,13 @@ const Easypay = () => {
                     Click here to set up your Eazipay account.
                   </p>
                 </div>
-              </div>
-              <div className="flex flex-col items-start justify-start gap-4">
+              </motion.div>
+              <motion.div
+                initial={{ opacity: 0, x: -100 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.6, delay: 0.2 }}
+                className="flex flex-col items-start justify-start gap-4"
+              >
                 <span className="md:w-14 md:h-14 w-12 h-12 flex items-center justify-center bg-[#F2F1F1] text-gray1 rounded-2xl text-xl font-bold md:text-2xl">
                   2
                 </span>
@@ -68,13 +81,21 @@ const Easypay = () => {
                     Your employee information is 100% safe and <br /> secure.
                   </p>
                 </div>
-              </div>
-              <img
+              </motion.div>
+              <motion.img
+                initial={{ opacity: 0, x: 100 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.6, delay: 0.4 }}
                 src="/imgs/step2.svg"
                 alt="/"
                 className="absolute xl:right-10 -right-3 top-[157px] w-[280px] xl:w-[290px] aspect-square hidden lg:flex"
               />
-              <div className="flex flex-col items-start justify-start gap-4">
+              <motion.div
+                initial={{ opacity: 0, x: 100 }}
+                animate={{ opacity: 1, x: 0 }}
+                transition={{ duration: 0.6, delay: 0.6 }}
+                className="flex flex-col items-start justify-start gap-4"
+              >
                 <span className="md:w-14 md:h-14 w-12 h-12 flex items-center justify-center bg-[#F2F1F1] text-gray1 rounded-2xl text-xl font-bold md:text-2xl">
                   3
                 </span>
@@ -87,7 +108,7 @@ const Easypay = () => {
                     once!
                   </p>
                 </div>
-              </div>
+              </motion.div>
             </div>
           </div>
         </div>
