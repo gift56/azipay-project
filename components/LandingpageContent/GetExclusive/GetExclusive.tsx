@@ -1,12 +1,17 @@
-import { Button } from "@/components";
 import { useState } from "react";
+import { motion } from "framer-motion";
+import { Button } from "@/components";
 
 const GetExclusive = () => {
   const [tabs, setTabs] = useState("individual");
 
   return (
     <section className="w-full relative">
-      <img
+      <motion.img
+        initial={{ opacity: 0, x: -100 }}
+        whileInView={{ opacity: 1, x: 0 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.6, delay: 0.2 }}
         src="/imgs/demoImg.svg"
         alt="/"
         className="absoulte top-20 w-[126px] md:w-[187px] aspect-square"
